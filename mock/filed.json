@@ -1,0 +1,1681 @@
+[
+    {
+        "id": "statuscategorychangedate",
+        "key": "statuscategorychangedate",
+        "name": "ステータス カテゴリが変更されました",
+        "custom": false,
+        "orderable": false,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "statusCategoryChangedDate"
+        ],
+        "schema": {
+            "type": "datetime",
+            "system": "statuscategorychangedate"
+        }
+    },
+    {
+        "id": "issuetype",
+        "key": "issuetype",
+        "name": "課題タイプ",
+        "custom": false,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "issuetype",
+            "type"
+        ],
+        "schema": {
+            "type": "issuetype",
+            "system": "issuetype"
+        }
+    },
+    {
+        "id": "parent",
+        "key": "parent",
+        "name": "親",
+        "custom": false,
+        "orderable": false,
+        "navigable": true,
+        "searchable": false,
+        "clauseNames": [
+            "parent"
+        ]
+    },
+    {
+        "id": "timespent",
+        "key": "timespent",
+        "name": "消費時間",
+        "custom": false,
+        "orderable": false,
+        "navigable": true,
+        "searchable": false,
+        "clauseNames": [
+            "timespent"
+        ],
+        "schema": {
+            "type": "number",
+            "system": "timespent"
+        }
+    },
+    {
+        "id": "project",
+        "key": "project",
+        "name": "プロジェクト",
+        "custom": false,
+        "orderable": false,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "project"
+        ],
+        "schema": {
+            "type": "project",
+            "system": "project"
+        }
+    },
+    {
+        "id": "fixVersions",
+        "key": "fixVersions",
+        "name": "修正バージョン",
+        "custom": false,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "fixVersion"
+        ],
+        "schema": {
+            "type": "array",
+            "items": "version",
+            "system": "fixVersions"
+        }
+    },
+    {
+        "id": "aggregatetimespent",
+        "key": "aggregatetimespent",
+        "name": "Σ 消費時間",
+        "custom": false,
+        "orderable": false,
+        "navigable": true,
+        "searchable": false,
+        "clauseNames": [],
+        "schema": {
+            "type": "number",
+            "system": "aggregatetimespent"
+        }
+    },
+    {
+        "id": "statusCategory",
+        "key": "statusCategory",
+        "name": "ステータス カテゴリ",
+        "custom": false,
+        "orderable": false,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "statusCategory"
+        ]
+    },
+    {
+        "id": "resolution",
+        "key": "resolution",
+        "name": "解決状況",
+        "custom": false,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "resolution"
+        ],
+        "schema": {
+            "type": "resolution",
+            "system": "resolution"
+        }
+    },
+    {
+        "id": "customfield_10630",
+        "key": "customfield_10630",
+        "name": "RV日数",
+        "untranslatedName": "RV日数",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "cf[10630]",
+            "RV日数",
+            "RV日数[Short text]"
+        ],
+        "scope": {
+            "type": "PROJECT",
+            "project": {
+                "id": "12010"
+            }
+        },
+        "schema": {
+            "type": "string",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+            "customId": 10630
+        }
+    },
+    {
+        "id": "customfield_10631",
+        "key": "customfield_10631",
+        "name": "作業日数",
+        "untranslatedName": "作業日数",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "cf[10631]",
+            "作業日数",
+            "作業日数[Short text]"
+        ],
+        "scope": {
+            "type": "PROJECT",
+            "project": {
+                "id": "12010"
+            }
+        },
+        "schema": {
+            "type": "string",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+            "customId": 10631
+        }
+    },
+    {
+        "id": "customfield_10500",
+        "key": "customfield_10500",
+        "name": "Organizations",
+        "untranslatedName": "Organizations",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "cf[10500]",
+            "Organizations"
+        ],
+        "schema": {
+            "type": "array",
+            "items": "sd-customerorganization",
+            "custom": "com.atlassian.servicedesk:sd-customer-organizations",
+            "customId": 10500
+        }
+    },
+    {
+        "id": "customfield_10621",
+        "key": "customfield_10621",
+        "name": "テストの実施",
+        "untranslatedName": "テストの実施",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "cf[10621]",
+            "テストの実施",
+            "テストの実施[Dropdown]"
+        ],
+        "scope": {
+            "type": "PROJECT",
+            "project": {
+                "id": "12010"
+            }
+        },
+        "schema": {
+            "type": "option",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+            "customId": 10621
+        }
+    },
+    {
+        "id": "customfield_10622",
+        "key": "customfield_10622",
+        "name": "テスト担当者",
+        "untranslatedName": "テスト担当者",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "cf[10622]",
+            "テスト担当者",
+            "テスト担当者[People]"
+        ],
+        "scope": {
+            "type": "PROJECT",
+            "project": {
+                "id": "12010"
+            }
+        },
+        "schema": {
+            "type": "array",
+            "items": "user",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:people",
+            "customId": 10622,
+            "configuration": {
+                "isMulti": true
+            }
+        }
+    },
+    {
+        "id": "customfield_10624",
+        "key": "customfield_10624",
+        "name": "実作業時間",
+        "untranslatedName": "実作業時間",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "cf[10624]",
+            "実作業時間",
+            "実作業時間[Paragraph]"
+        ],
+        "scope": {
+            "type": "PROJECT",
+            "project": {
+                "id": "12010"
+            }
+        },
+        "schema": {
+            "type": "string",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textarea",
+            "customId": 10624
+        }
+    },
+    {
+        "id": "customfield_10626",
+        "key": "customfield_10626",
+        "name": "リリース日",
+        "untranslatedName": "リリース日",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "cf[10626]",
+            "リリース日",
+            "リリース日[Labels]"
+        ],
+        "scope": {
+            "type": "PROJECT",
+            "project": {
+                "id": "12010"
+            }
+        },
+        "schema": {
+            "type": "array",
+            "items": "string",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:labels",
+            "customId": 10626
+        }
+    },
+    {
+        "id": "resolutiondate",
+        "key": "resolutiondate",
+        "name": "解決日",
+        "custom": false,
+        "orderable": false,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "resolutiondate",
+            "resolved"
+        ],
+        "schema": {
+            "type": "datetime",
+            "system": "resolutiondate"
+        }
+    },
+    {
+        "id": "customfield_10627",
+        "key": "customfield_10627",
+        "name": "実作業時間(H)※テキスト",
+        "untranslatedName": "実作業時間(H)※テキスト",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "cf[10627]",
+            "実作業時間(H)※テキスト",
+            "実作業時間(H)※テキスト[Short text]"
+        ],
+        "scope": {
+            "type": "PROJECT",
+            "project": {
+                "id": "12014"
+            }
+        },
+        "schema": {
+            "type": "string",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+            "customId": 10627
+        }
+    },
+    {
+        "id": "customfield_10629",
+        "key": "customfield_10629",
+        "name": "実作業時間(複数スプリント対応)",
+        "untranslatedName": "実作業時間(複数スプリント対応)",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "cf[10629]",
+            "実作業時間(複数スプリント対応)",
+            "実作業時間(複数スプリント対応)[Short text]"
+        ],
+        "scope": {
+            "type": "PROJECT",
+            "project": {
+                "id": "12014"
+            }
+        },
+        "schema": {
+            "type": "string",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+            "customId": 10629
+        }
+    },
+    {
+        "id": "workratio",
+        "key": "workratio",
+        "name": "作業比率",
+        "custom": false,
+        "orderable": false,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "workratio"
+        ],
+        "schema": {
+            "type": "number",
+            "system": "workratio"
+        }
+    },
+    {
+        "id": "issuerestriction",
+        "key": "issuerestriction",
+        "name": "制限対象",
+        "custom": false,
+        "orderable": true,
+        "navigable": false,
+        "searchable": true,
+        "clauseNames": [],
+        "schema": {
+            "type": "issuerestriction",
+            "system": "issuerestriction"
+        }
+    },
+    {
+        "id": "lastViewed",
+        "key": "lastViewed",
+        "name": "最終閲覧日",
+        "custom": false,
+        "orderable": false,
+        "navigable": true,
+        "searchable": false,
+        "clauseNames": [
+            "lastViewed"
+        ],
+        "schema": {
+            "type": "datetime",
+            "system": "lastViewed"
+        }
+    },
+    {
+        "id": "watches",
+        "key": "watches",
+        "name": "ウォッチャー",
+        "custom": false,
+        "orderable": false,
+        "navigable": true,
+        "searchable": false,
+        "clauseNames": [
+            "watchers"
+        ],
+        "schema": {
+            "type": "watches",
+            "system": "watches"
+        }
+    },
+    {
+        "id": "thumbnail",
+        "key": "thumbnail",
+        "name": "画像",
+        "custom": false,
+        "orderable": false,
+        "navigable": true,
+        "searchable": false,
+        "clauseNames": []
+    },
+    {
+        "id": "created",
+        "key": "created",
+        "name": "作成日",
+        "custom": false,
+        "orderable": false,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "created",
+            "createdDate"
+        ],
+        "schema": {
+            "type": "datetime",
+            "system": "created"
+        }
+    },
+    {
+        "id": "customfield_10020",
+        "key": "customfield_10020",
+        "name": "Rank",
+        "untranslatedName": "Rank",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "cf[10020]",
+            "Rank"
+        ],
+        "schema": {
+            "type": "any",
+            "custom": "com.pyxis.greenhopper.jira:gh-lexo-rank",
+            "customId": 10020
+        }
+    },
+    {
+        "id": "customfield_10021",
+        "key": "customfield_10021",
+        "name": "Approvals",
+        "untranslatedName": "Approvals",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "Approvals",
+            "Approvals[Approvals]",
+            "cf[10021]"
+        ],
+        "schema": {
+            "type": "sd-approvals",
+            "custom": "com.atlassian.servicedesk.approvals-plugin:sd-approvals",
+            "customId": 10021
+        }
+    },
+    {
+        "id": "customfield_10022",
+        "key": "customfield_10022",
+        "name": "Story Points",
+        "untranslatedName": "Story Points",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "cf[10022]",
+            "Story Points",
+            "Story Points[Number]"
+        ],
+        "schema": {
+            "type": "number",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:float",
+            "customId": 10022
+        }
+    },
+    {
+        "id": "priority",
+        "key": "priority",
+        "name": "優先度",
+        "custom": false,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "priority"
+        ],
+        "schema": {
+            "type": "priority",
+            "system": "priority"
+        }
+    },
+    {
+        "id": "customfield_10100",
+        "key": "customfield_10100",
+        "name": "Flagged",
+        "untranslatedName": "Flagged",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "cf[10100]",
+            "Flagged",
+            "Flagged[Checkboxes]"
+        ],
+        "schema": {
+            "type": "array",
+            "items": "option",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:multicheckboxes",
+            "customId": 10100
+        }
+    },
+    {
+        "id": "customfield_10300",
+        "key": "customfield_10300",
+        "name": "開発",
+        "untranslatedName": "development",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "cf[10300]",
+            "development"
+        ],
+        "schema": {
+            "type": "any",
+            "custom": "com.atlassian.jira.plugins.jira-development-integration-plugin:devsummarycf",
+            "customId": 10300
+        }
+    },
+    {
+        "id": "labels",
+        "key": "labels",
+        "name": "ラベル",
+        "custom": false,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "labels"
+        ],
+        "schema": {
+            "type": "array",
+            "items": "string",
+            "system": "labels"
+        }
+    },
+    {
+        "id": "customfield_10620",
+        "key": "customfield_10620",
+        "name": "実作業時間(H)",
+        "untranslatedName": "実作業時間(H)",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "cf[10620]",
+            "実作業時間(H)",
+            "実作業時間(H)[Number]"
+        ],
+        "scope": {
+            "type": "PROJECT",
+            "project": {
+                "id": "12014"
+            }
+        },
+        "schema": {
+            "type": "number",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:float",
+            "customId": 10620
+        }
+    },
+    {
+        "id": "customfield_10016",
+        "key": "customfield_10016",
+        "name": "Epic Link",
+        "untranslatedName": "Epic Link",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "cf[10016]",
+            "Epic Link"
+        ],
+        "schema": {
+            "type": "any",
+            "custom": "com.pyxis.greenhopper.jira:gh-epic-link",
+            "customId": 10016
+        }
+    },
+    {
+        "id": "customfield_10610",
+        "key": "customfield_10610",
+        "name": "Story point estimate",
+        "untranslatedName": "Story point estimate",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "cf[10610]",
+            "Story point estimate"
+        ],
+        "schema": {
+            "type": "number",
+            "custom": "com.pyxis.greenhopper.jira:jsw-story-points",
+            "customId": 10610
+        }
+    },
+    {
+        "id": "customfield_10017",
+        "key": "customfield_10017",
+        "name": "Epic Status",
+        "untranslatedName": "Epic Status",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "cf[10017]",
+            "Epic Status"
+        ],
+        "schema": {
+            "type": "option",
+            "custom": "com.pyxis.greenhopper.jira:gh-epic-status",
+            "customId": 10017
+        }
+    },
+    {
+        "id": "customfield_10611",
+        "key": "customfield_10611",
+        "name": "Issue color",
+        "untranslatedName": "Issue color",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "cf[10611]",
+            "Issue color"
+        ],
+        "schema": {
+            "type": "string",
+            "custom": "com.pyxis.greenhopper.jira:jsw-issue-color",
+            "customId": 10611
+        }
+    },
+    {
+        "id": "customfield_10018",
+        "key": "customfield_10018",
+        "name": "Epic Name",
+        "untranslatedName": "Epic Name",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "cf[10018]",
+            "Epic Name"
+        ],
+        "schema": {
+            "type": "string",
+            "custom": "com.pyxis.greenhopper.jira:gh-epic-label",
+            "customId": 10018
+        }
+    },
+    {
+        "id": "customfield_10612",
+        "key": "customfield_10612",
+        "name": "Satisfaction",
+        "untranslatedName": "Satisfaction",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "cf[10612]",
+            "Satisfaction"
+        ],
+        "schema": {
+            "type": "sd-feedback",
+            "custom": "com.atlassian.servicedesk:sd-request-feedback",
+            "customId": 10612
+        }
+    },
+    {
+        "id": "customfield_10019",
+        "key": "customfield_10019",
+        "name": "Epic Color",
+        "untranslatedName": "Epic Color",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "cf[10019]",
+            "Epic Color"
+        ],
+        "schema": {
+            "type": "string",
+            "custom": "com.pyxis.greenhopper.jira:gh-epic-color",
+            "customId": 10019
+        }
+    },
+    {
+        "id": "timeestimate",
+        "key": "timeestimate",
+        "name": "残余見積",
+        "custom": false,
+        "orderable": false,
+        "navigable": true,
+        "searchable": false,
+        "clauseNames": [
+            "remainingEstimate",
+            "timeestimate"
+        ],
+        "schema": {
+            "type": "number",
+            "system": "timeestimate"
+        }
+    },
+    {
+        "id": "aggregatetimeoriginalestimate",
+        "key": "aggregatetimeoriginalestimate",
+        "name": "Σ 初期見積",
+        "custom": false,
+        "orderable": false,
+        "navigable": true,
+        "searchable": false,
+        "clauseNames": [],
+        "schema": {
+            "type": "number",
+            "system": "aggregatetimeoriginalestimate"
+        }
+    },
+    {
+        "id": "customfield_10614",
+        "key": "customfield_10614",
+        "name": "Program Increment",
+        "untranslatedName": "Program Increment",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "cf[10614]",
+            "Program Increment",
+            "Program Increment[Short text]"
+        ],
+        "schema": {
+            "type": "string",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+            "customId": 10614
+        }
+    },
+    {
+        "id": "versions",
+        "key": "versions",
+        "name": "影響するバージョン",
+        "custom": false,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "affectedVersion"
+        ],
+        "schema": {
+            "type": "array",
+            "items": "version",
+            "system": "versions"
+        }
+    },
+    {
+        "id": "customfield_10618",
+        "key": "customfield_10618",
+        "name": "Target start",
+        "untranslatedName": "Target start",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "cf[10618]",
+            "Target start"
+        ],
+        "schema": {
+            "type": "date",
+            "custom": "com.atlassian.jpo:jpo-custom-field-baseline-start",
+            "customId": 10618
+        }
+    },
+    {
+        "id": "customfield_10619",
+        "key": "customfield_10619",
+        "name": "Target end",
+        "untranslatedName": "Target end",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "cf[10619]",
+            "Target end"
+        ],
+        "schema": {
+            "type": "date",
+            "custom": "com.atlassian.jpo:jpo-custom-field-baseline-end",
+            "customId": 10619
+        }
+    },
+    {
+        "id": "issuelinks",
+        "key": "issuelinks",
+        "name": "リンクされた課題",
+        "custom": false,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "issueLink"
+        ],
+        "schema": {
+            "type": "array",
+            "items": "issuelinks",
+            "system": "issuelinks"
+        }
+    },
+    {
+        "id": "assignee",
+        "key": "assignee",
+        "name": "担当者",
+        "custom": false,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "assignee"
+        ],
+        "schema": {
+            "type": "user",
+            "system": "assignee"
+        }
+    },
+    {
+        "id": "updated",
+        "key": "updated",
+        "name": "更新日",
+        "custom": false,
+        "orderable": false,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "updated",
+            "updatedDate"
+        ],
+        "schema": {
+            "type": "datetime",
+            "system": "updated"
+        }
+    },
+    {
+        "id": "status",
+        "key": "status",
+        "name": "ステータス",
+        "custom": false,
+        "orderable": false,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "status"
+        ],
+        "schema": {
+            "type": "status",
+            "system": "status"
+        }
+    },
+    {
+        "id": "components",
+        "key": "components",
+        "name": "コンポーネント",
+        "custom": false,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "component"
+        ],
+        "schema": {
+            "type": "array",
+            "items": "component",
+            "system": "components"
+        }
+    },
+    {
+        "id": "issuekey",
+        "key": "issuekey",
+        "name": "キー",
+        "custom": false,
+        "orderable": false,
+        "navigable": true,
+        "searchable": false,
+        "clauseNames": [
+            "id",
+            "issue",
+            "issuekey",
+            "key"
+        ]
+    },
+    {
+        "id": "timeoriginalestimate",
+        "key": "timeoriginalestimate",
+        "name": "初期見積",
+        "custom": false,
+        "orderable": false,
+        "navigable": true,
+        "searchable": false,
+        "clauseNames": [
+            "originalEstimate",
+            "timeoriginalestimate"
+        ],
+        "schema": {
+            "type": "number",
+            "system": "timeoriginalestimate"
+        }
+    },
+    {
+        "id": "description",
+        "key": "description",
+        "name": "説明",
+        "custom": false,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "description"
+        ],
+        "schema": {
+            "type": "string",
+            "system": "description"
+        }
+    },
+    {
+        "id": "timetracking",
+        "key": "timetracking",
+        "name": "時間の管理",
+        "custom": false,
+        "orderable": true,
+        "navigable": false,
+        "searchable": true,
+        "clauseNames": [],
+        "schema": {
+            "type": "timetracking",
+            "system": "timetracking"
+        }
+    },
+    {
+        "id": "customfield_10015",
+        "key": "customfield_10015",
+        "name": "Sprint",
+        "untranslatedName": "Sprint",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "cf[10015]",
+            "Sprint"
+        ],
+        "schema": {
+            "type": "array",
+            "items": "json",
+            "custom": "com.pyxis.greenhopper.jira:gh-sprint",
+            "customId": 10015
+        }
+    },
+    {
+        "id": "security",
+        "key": "security",
+        "name": "セキュリティ レベル",
+        "custom": false,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "level"
+        ],
+        "schema": {
+            "type": "securitylevel",
+            "system": "security"
+        }
+    },
+    {
+        "id": "customfield_10602",
+        "key": "customfield_10602",
+        "name": "Baseline start date",
+        "untranslatedName": "Baseline start date",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "Baseline start date",
+            "Baseline start date[Date]",
+            "cf[10602]"
+        ],
+        "schema": {
+            "type": "date",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker",
+            "customId": 10602
+        }
+    },
+    {
+        "id": "attachment",
+        "key": "attachment",
+        "name": "添付ファイル",
+        "custom": false,
+        "orderable": true,
+        "navigable": false,
+        "searchable": true,
+        "clauseNames": [
+            "attachments"
+        ],
+        "schema": {
+            "type": "array",
+            "items": "attachment",
+            "system": "attachment"
+        }
+    },
+    {
+        "id": "aggregatetimeestimate",
+        "key": "aggregatetimeestimate",
+        "name": "Σ 残余見積",
+        "custom": false,
+        "orderable": false,
+        "navigable": true,
+        "searchable": false,
+        "clauseNames": [],
+        "schema": {
+            "type": "number",
+            "system": "aggregatetimeestimate"
+        }
+    },
+    {
+        "id": "customfield_10603",
+        "key": "customfield_10603",
+        "name": "Baseline end date",
+        "untranslatedName": "Baseline end date",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "Baseline end date",
+            "Baseline end date[Date]",
+            "cf[10603]"
+        ],
+        "schema": {
+            "type": "date",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker",
+            "customId": 10603
+        }
+    },
+    {
+        "id": "customfield_10604",
+        "key": "customfield_10604",
+        "name": "Task progress",
+        "untranslatedName": "Task progress",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "cf[10604]",
+            "Task progress",
+            "Task progress[Number]"
+        ],
+        "schema": {
+            "type": "number",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:float",
+            "customId": 10604
+        }
+    },
+    {
+        "id": "customfield_10605",
+        "key": "customfield_10605",
+        "name": "Start date",
+        "untranslatedName": "Start date",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "cf[10605]",
+            "Start date",
+            "Start date[Date]"
+        ],
+        "schema": {
+            "type": "date",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker",
+            "customId": 10605
+        }
+    },
+    {
+        "id": "customfield_10606",
+        "key": "customfield_10606",
+        "name": "End date",
+        "untranslatedName": "End date",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "cf[10606]",
+            "End date",
+            "End date[Date]"
+        ],
+        "schema": {
+            "type": "date",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker",
+            "customId": 10606
+        }
+    },
+    {
+        "id": "customfield_10607",
+        "key": "customfield_10607",
+        "name": "Start date",
+        "untranslatedName": "Start date",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "cf[10607]",
+            "Start date",
+            "Start date[Date]"
+        ],
+        "schema": {
+            "type": "date",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker",
+            "customId": 10607
+        }
+    },
+    {
+        "id": "customfield_10608",
+        "key": "customfield_10608",
+        "name": "Request Type",
+        "untranslatedName": "Request Type",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "cf[10608]",
+            "Request Type"
+        ],
+        "schema": {
+            "type": "sd-customerrequesttype",
+            "custom": "com.atlassian.servicedesk:vp-origin",
+            "customId": 10608
+        }
+    },
+    {
+        "id": "customfield_10609",
+        "key": "customfield_10609",
+        "name": "Request participants",
+        "untranslatedName": "Request participants",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "cf[10609]",
+            "Request participants"
+        ],
+        "schema": {
+            "type": "array",
+            "items": "user",
+            "custom": "com.atlassian.servicedesk:sd-request-participants",
+            "customId": 10609
+        }
+    },
+    {
+        "id": "summary",
+        "key": "summary",
+        "name": "要約",
+        "custom": false,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "summary"
+        ],
+        "schema": {
+            "type": "string",
+            "system": "summary"
+        }
+    },
+    {
+        "id": "creator",
+        "key": "creator",
+        "name": "作成者",
+        "custom": false,
+        "orderable": false,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "creator"
+        ],
+        "schema": {
+            "type": "user",
+            "system": "creator"
+        }
+    },
+    {
+        "id": "subtasks",
+        "key": "subtasks",
+        "name": "サブタスク",
+        "custom": false,
+        "orderable": false,
+        "navigable": true,
+        "searchable": false,
+        "clauseNames": [
+            "subtasks"
+        ],
+        "schema": {
+            "type": "array",
+            "items": "issuelinks",
+            "system": "subtasks"
+        }
+    },
+    {
+        "id": "reporter",
+        "key": "reporter",
+        "name": "報告者",
+        "custom": false,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "reporter"
+        ],
+        "schema": {
+            "type": "user",
+            "system": "reporter"
+        }
+    },
+    {
+        "id": "aggregateprogress",
+        "key": "aggregateprogress",
+        "name": "Σ 進捗状況",
+        "custom": false,
+        "orderable": false,
+        "navigable": true,
+        "searchable": false,
+        "clauseNames": [],
+        "schema": {
+            "type": "progress",
+            "system": "aggregateprogress"
+        }
+    },
+    {
+        "id": "customfield_10000",
+        "key": "customfield_10000",
+        "name": "[CHART] Date of First Response",
+        "untranslatedName": "[CHART] Date of First Response",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "[CHART] Date of First Response",
+            "[CHART] Date of First Response[Date of first response]",
+            "cf[10000]"
+        ],
+        "schema": {
+            "type": "datetime",
+            "custom": "com.atlassian.jira.ext.charting:firstresponsedate",
+            "customId": 10000
+        }
+    },
+    {
+        "id": "customfield_10001",
+        "key": "customfield_10001",
+        "name": "[CHART] Time in Status",
+        "untranslatedName": "[CHART] Time in Status",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "[CHART] Time in Status",
+            "[CHART] Time in Status[Time in Status]",
+            "cf[10001]"
+        ],
+        "schema": {
+            "type": "any",
+            "custom": "com.atlassian.jira.ext.charting:timeinstatus",
+            "customId": 10001
+        }
+    },
+    {
+        "id": "customfield_10200",
+        "key": "customfield_10200",
+        "name": "Parent Link",
+        "untranslatedName": "Parent Link",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "cf[10200]",
+            "Parent Link"
+        ],
+        "schema": {
+            "type": "any",
+            "custom": "com.atlassian.jpo:jpo-custom-field-parent",
+            "customId": 10200
+        }
+    },
+    {
+        "id": "customfield_10400",
+        "key": "customfield_10400",
+        "name": "Team",
+        "untranslatedName": "Team",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "cf[10400]",
+            "Team",
+            "Team[Team]"
+        ],
+        "schema": {
+            "type": "any",
+            "custom": "com.atlassian.teams:rm-teams-custom-field-team",
+            "customId": 10400
+        }
+    },
+    {
+        "id": "customfield_10632",
+        "key": "customfield_10632",
+        "name": "作業開始日",
+        "untranslatedName": "作業開始日",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "cf[10632]",
+            "作業開始日",
+            "作業開始日[Date]"
+        ],
+        "scope": {
+            "type": "PROJECT",
+            "project": {
+                "id": "12010"
+            }
+        },
+        "schema": {
+            "type": "date",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker",
+            "customId": 10632
+        }
+    },
+    {
+        "id": "customfield_10633",
+        "key": "customfield_10633",
+        "name": "RV開始日",
+        "untranslatedName": "RV開始日",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "cf[10633]",
+            "RV開始日",
+            "RV開始日[Date]"
+        ],
+        "scope": {
+            "type": "PROJECT",
+            "project": {
+                "id": "12010"
+            }
+        },
+        "schema": {
+            "type": "date",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker",
+            "customId": 10633
+        }
+    },
+    {
+        "id": "environment",
+        "key": "environment",
+        "name": "環境",
+        "custom": false,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "environment"
+        ],
+        "schema": {
+            "type": "string",
+            "system": "environment"
+        }
+    },
+    {
+        "id": "customfield_10634",
+        "key": "customfield_10634",
+        "name": "作業開始日",
+        "untranslatedName": "作業開始日",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "cf[10634]",
+            "作業開始日",
+            "作業開始日[Date]"
+        ],
+        "scope": {
+            "type": "PROJECT",
+            "project": {
+                "id": "12014"
+            }
+        },
+        "schema": {
+            "type": "date",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker",
+            "customId": 10634
+        }
+    },
+    {
+        "id": "customfield_10635",
+        "key": "customfield_10635",
+        "name": "作業日数",
+        "untranslatedName": "作業日数",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "cf[10635]",
+            "作業日数",
+            "作業日数[Short text]"
+        ],
+        "scope": {
+            "type": "PROJECT",
+            "project": {
+                "id": "12014"
+            }
+        },
+        "schema": {
+            "type": "string",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+            "customId": 10635
+        }
+    },
+    {
+        "id": "customfield_10636",
+        "key": "customfield_10636",
+        "name": "RV開始日",
+        "untranslatedName": "RV開始日",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "cf[10636]",
+            "RV開始日",
+            "RV開始日[Date]"
+        ],
+        "scope": {
+            "type": "PROJECT",
+            "project": {
+                "id": "12014"
+            }
+        },
+        "schema": {
+            "type": "date",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker",
+            "customId": 10636
+        }
+    },
+    {
+        "id": "customfield_10637",
+        "key": "customfield_10637",
+        "name": "RV日数",
+        "untranslatedName": "RV日数",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "cf[10637]",
+            "RV日数",
+            "RV日数[Short text]"
+        ],
+        "scope": {
+            "type": "PROJECT",
+            "project": {
+                "id": "12014"
+            }
+        },
+        "schema": {
+            "type": "string",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+            "customId": 10637
+        }
+    },
+    {
+        "id": "duedate",
+        "key": "duedate",
+        "name": "期日",
+        "custom": false,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "due",
+            "duedate"
+        ],
+        "schema": {
+            "type": "date",
+            "system": "duedate"
+        }
+    },
+    {
+        "id": "customfield_10638",
+        "key": "customfield_10638",
+        "name": "story point",
+        "untranslatedName": "story point",
+        "custom": true,
+        "orderable": true,
+        "navigable": true,
+        "searchable": true,
+        "clauseNames": [
+            "cf[10638]",
+            "story point",
+            "story point[Number]"
+        ],
+        "scope": {
+            "type": "PROJECT",
+            "project": {
+                "id": "12025"
+            }
+        },
+        "schema": {
+            "type": "number",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:float",
+            "customId": 10638
+        }
+    },
+    {
+        "id": "progress",
+        "key": "progress",
+        "name": "進捗状況",
+        "custom": false,
+        "orderable": false,
+        "navigable": true,
+        "searchable": false,
+        "clauseNames": [
+            "progress"
+        ],
+        "schema": {
+            "type": "progress",
+            "system": "progress"
+        }
+    },
+    {
+        "id": "comment",
+        "key": "comment",
+        "name": "コメント",
+        "custom": false,
+        "orderable": true,
+        "navigable": false,
+        "searchable": true,
+        "clauseNames": [
+            "comment"
+        ],
+        "schema": {
+            "type": "comments-page",
+            "system": "comment"
+        }
+    },
+    {
+        "id": "votes",
+        "key": "votes",
+        "name": "投票",
+        "custom": false,
+        "orderable": false,
+        "navigable": true,
+        "searchable": false,
+        "clauseNames": [
+            "votes"
+        ],
+        "schema": {
+            "type": "votes",
+            "system": "votes"
+        }
+    },
+    {
+        "id": "worklog",
+        "key": "worklog",
+        "name": "ログ作業",
+        "custom": false,
+        "orderable": true,
+        "navigable": false,
+        "searchable": true,
+        "clauseNames": [],
+        "schema": {
+            "type": "array",
+            "items": "worklog",
+            "system": "worklog"
+        }
+    }
+]
