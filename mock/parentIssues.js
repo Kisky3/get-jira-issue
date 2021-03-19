@@ -8,17 +8,17 @@ module.exports = {
       expand:
         "operations,versionedRepresentations,editmeta,changelog,renderedFields",
       id: "28478",
-      self: "https://marketenterprise.atlassian.net/rest/api/3/issue/28478",
+      self: "https://xxxxxxxx.atlassian.net/rest/api/3/issue/28478",
       key: "RUSE-881",
       fields: {
         statuscategorychangedate: "2021-01-22T10:17:25.821+0900",
         issuetype: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10208",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10208",
           id: "10208",
           description: "生まれたてのチケット\n未確定のチケット",
           iconUrl:
-            "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10300&avatarType=issuetype",
+            "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10300&avatarType=issuetype",
           name: "New",
           subtask: false,
           avatarId: 10300,
@@ -28,19 +28,19 @@ module.exports = {
         parent: {
           id: "26876",
           key: "RUSE-1",
-          self: "https://marketenterprise.atlassian.net/rest/api/3/issue/26876",
+          self: "https://xxxxxxxx.atlassian.net/rest/api/3/issue/26876",
           fields: {
             summary: "おいくら-保守",
             status: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/status/10369",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/status/10369",
               description: "",
-              iconUrl: "https://marketenterprise.atlassian.net/",
+              iconUrl: "https://xxxxxxxx.atlassian.net/",
               name: "To Do",
               id: "10369",
               statusCategory: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/2",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/2",
                 id: 2,
                 key: "new",
                 colorName: "blue-gray",
@@ -49,20 +49,20 @@ module.exports = {
             },
             priority: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
               iconUrl:
-                "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+                "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
               name: "Medium",
               id: "3",
             },
             issuetype: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10152",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10152",
               id: "10152",
               description:
                 "エピックでは、一連の関連するバグ、ストーリー、タスクを追跡します。",
               iconUrl:
-                "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10307&avatarType=issuetype",
+                "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10307&avatarType=issuetype",
               name: "エピック",
               subtask: false,
               avatarId: 10307,
@@ -74,7 +74,7 @@ module.exports = {
         timespent: null,
         project: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/project/12014",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/project/12014",
           id: "12014",
           key: "RUSE",
           name: "チームブルー",
@@ -82,13 +82,13 @@ module.exports = {
           simplified: true,
           avatarUrls: {
             "48x48":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?pid=12014&avatarId=11719",
             "24x24":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=small&s=small&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=small&s=small&pid=12014&avatarId=11719",
             "16x16":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=12014&avatarId=11719",
             "32x32":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=12014&avatarId=11719",
           },
         },
         fixVersions: [],
@@ -100,7 +100,7 @@ module.exports = {
         lastViewed: "2021-01-22T16:22:26.539+0900",
         watches: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issue/RUSE-881/watchers",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issue/RUSE-881/watchers",
           watchCount: 1,
           isWatching: true,
         },
@@ -109,9 +109,9 @@ module.exports = {
         customfield_10021: null,
         customfield_10100: null,
         priority: {
-          self: "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+          self: "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
           iconUrl:
-            "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+            "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
           name: "Medium",
           id: "3",
         },
@@ -132,14 +132,14 @@ module.exports = {
         updated: "2021-01-22T16:22:23.575+0900",
         status: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/status/10369",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/status/10369",
           description: "",
-          iconUrl: "https://marketenterprise.atlassian.net/",
+          iconUrl: "https://xxxxxxxx.atlassian.net/",
           name: "To Do",
           id: "10369",
           statusCategory: {
             self:
-              "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/2",
+              "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/2",
             id: 2,
             key: "new",
             colorName: "blue-gray",
@@ -316,9 +316,9 @@ module.exports = {
         summary: "セミナーのバナーをアップする",
         creator: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
           accountId: "557058:17fcc822-605c-48bb-97b3-2057e2250010",
-          emailAddress: "nakama@marketenterprise.co.jp",
+          emailAddress: "nakama@xxxxxxxx.co.jp",
           avatarUrls: {
             "48x48":
               "https://secure.gravatar.com/avatar/162cbe566985300a2e5314ede23d79f1?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTN-6.png",
@@ -337,9 +337,9 @@ module.exports = {
         subtasks: [],
         reporter: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
           accountId: "557058:17fcc822-605c-48bb-97b3-2057e2250010",
-          emailAddress: "nakama@marketenterprise.co.jp",
+          emailAddress: "nakama@xxxxxxxx.co.jp",
           avatarUrls: {
             "48x48":
               "https://secure.gravatar.com/avatar/162cbe566985300a2e5314ede23d79f1?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTN-6.png",
@@ -378,7 +378,7 @@ module.exports = {
         },
         votes: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issue/RUSE-881/votes",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issue/RUSE-881/votes",
           votes: 0,
           hasVoted: false,
         },
@@ -388,17 +388,17 @@ module.exports = {
       expand:
         "operations,versionedRepresentations,editmeta,changelog,renderedFields",
       id: "28475",
-      self: "https://marketenterprise.atlassian.net/rest/api/3/issue/28475",
+      self: "https://xxxxxxxx.atlassian.net/rest/api/3/issue/28475",
       key: "RUSE-878",
       fields: {
         statuscategorychangedate: "2021-01-21T14:53:55.915+0900",
         issuetype: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10150",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10150",
           id: "10150",
           description: "さまざまな小規模作業。",
           iconUrl:
-            "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10318&avatarType=issuetype",
+            "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10318&avatarType=issuetype",
           name: "タスク",
           subtask: false,
           avatarId: 10318,
@@ -408,19 +408,19 @@ module.exports = {
         parent: {
           id: "26876",
           key: "RUSE-1",
-          self: "https://marketenterprise.atlassian.net/rest/api/3/issue/26876",
+          self: "https://xxxxxxxx.atlassian.net/rest/api/3/issue/26876",
           fields: {
             summary: "おいくら-保守",
             status: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/status/10369",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/status/10369",
               description: "",
-              iconUrl: "https://marketenterprise.atlassian.net/",
+              iconUrl: "https://xxxxxxxx.atlassian.net/",
               name: "To Do",
               id: "10369",
               statusCategory: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/2",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/2",
                 id: 2,
                 key: "new",
                 colorName: "blue-gray",
@@ -429,20 +429,20 @@ module.exports = {
             },
             priority: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
               iconUrl:
-                "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+                "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
               name: "Medium",
               id: "3",
             },
             issuetype: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10152",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10152",
               id: "10152",
               description:
                 "エピックでは、一連の関連するバグ、ストーリー、タスクを追跡します。",
               iconUrl:
-                "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10307&avatarType=issuetype",
+                "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10307&avatarType=issuetype",
               name: "エピック",
               subtask: false,
               avatarId: 10307,
@@ -454,7 +454,7 @@ module.exports = {
         timespent: null,
         project: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/project/12014",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/project/12014",
           id: "12014",
           key: "RUSE",
           name: "チームブルー",
@@ -462,13 +462,13 @@ module.exports = {
           simplified: true,
           avatarUrls: {
             "48x48":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?pid=12014&avatarId=11719",
             "24x24":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=small&s=small&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=small&s=small&pid=12014&avatarId=11719",
             "16x16":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=12014&avatarId=11719",
             "32x32":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=12014&avatarId=11719",
           },
         },
         fixVersions: [],
@@ -481,7 +481,7 @@ module.exports = {
         workratio: -1,
         watches: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issue/RUSE-878/watchers",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issue/RUSE-878/watchers",
           watchCount: 1,
           isWatching: true,
         },
@@ -490,9 +490,9 @@ module.exports = {
         customfield_10020: "0|i01lmr:6",
         customfield_10021: null,
         priority: {
-          self: "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+          self: "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
           iconUrl:
-            "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+            "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
           name: "Medium",
           id: "3",
         },
@@ -513,9 +513,9 @@ module.exports = {
         issuelinks: [],
         assignee: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
           accountId: "557058:17fcc822-605c-48bb-97b3-2057e2250010",
-          emailAddress: "nakama@marketenterprise.co.jp",
+          emailAddress: "nakama@xxxxxxxx.co.jp",
           avatarUrls: {
             "48x48":
               "https://secure.gravatar.com/avatar/162cbe566985300a2e5314ede23d79f1?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTN-6.png",
@@ -534,14 +534,14 @@ module.exports = {
         updated: "2021-01-22T13:59:36.889+0900",
         status: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/status/10369",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/status/10369",
           description: "",
-          iconUrl: "https://marketenterprise.atlassian.net/",
+          iconUrl: "https://xxxxxxxx.atlassian.net/",
           name: "To Do",
           id: "10369",
           statusCategory: {
             self:
-              "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/2",
+              "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/2",
             id: 2,
             key: "new",
             colorName: "blue-gray",
@@ -737,9 +737,9 @@ module.exports = {
         summary: "[TOPページ改修] PRをレビュー後に修正が必要な作業を洗い出す",
         creator: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
           accountId: "557058:17fcc822-605c-48bb-97b3-2057e2250010",
-          emailAddress: "nakama@marketenterprise.co.jp",
+          emailAddress: "nakama@xxxxxxxx.co.jp",
           avatarUrls: {
             "48x48":
               "https://secure.gravatar.com/avatar/162cbe566985300a2e5314ede23d79f1?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTN-6.png",
@@ -758,9 +758,9 @@ module.exports = {
         subtasks: [],
         reporter: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
           accountId: "557058:17fcc822-605c-48bb-97b3-2057e2250010",
-          emailAddress: "nakama@marketenterprise.co.jp",
+          emailAddress: "nakama@xxxxxxxx.co.jp",
           avatarUrls: {
             "48x48":
               "https://secure.gravatar.com/avatar/162cbe566985300a2e5314ede23d79f1?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTN-6.png",
@@ -803,7 +803,7 @@ module.exports = {
         },
         votes: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issue/RUSE-878/votes",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issue/RUSE-878/votes",
           votes: 0,
           hasVoted: false,
         },
@@ -813,17 +813,17 @@ module.exports = {
       expand:
         "operations,versionedRepresentations,editmeta,changelog,renderedFields",
       id: "28470",
-      self: "https://marketenterprise.atlassian.net/rest/api/3/issue/28470",
+      self: "https://xxxxxxxx.atlassian.net/rest/api/3/issue/28470",
       key: "RUSE-873",
       fields: {
         statuscategorychangedate: "2021-01-21T10:35:32.391+0900",
         issuetype: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10150",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10150",
           id: "10150",
           description: "さまざまな小規模作業。",
           iconUrl:
-            "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10318&avatarType=issuetype",
+            "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10318&avatarType=issuetype",
           name: "タスク",
           subtask: false,
           avatarId: 10318,
@@ -833,19 +833,19 @@ module.exports = {
         parent: {
           id: "26876",
           key: "RUSE-1",
-          self: "https://marketenterprise.atlassian.net/rest/api/3/issue/26876",
+          self: "https://xxxxxxxx.atlassian.net/rest/api/3/issue/26876",
           fields: {
             summary: "おいくら-保守",
             status: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/status/10369",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/status/10369",
               description: "",
-              iconUrl: "https://marketenterprise.atlassian.net/",
+              iconUrl: "https://xxxxxxxx.atlassian.net/",
               name: "To Do",
               id: "10369",
               statusCategory: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/2",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/2",
                 id: 2,
                 key: "new",
                 colorName: "blue-gray",
@@ -854,20 +854,20 @@ module.exports = {
             },
             priority: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
               iconUrl:
-                "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+                "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
               name: "Medium",
               id: "3",
             },
             issuetype: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10152",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10152",
               id: "10152",
               description:
                 "エピックでは、一連の関連するバグ、ストーリー、タスクを追跡します。",
               iconUrl:
-                "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10307&avatarType=issuetype",
+                "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10307&avatarType=issuetype",
               name: "エピック",
               subtask: false,
               avatarId: 10307,
@@ -879,7 +879,7 @@ module.exports = {
         timespent: null,
         project: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/project/12014",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/project/12014",
           id: "12014",
           key: "RUSE",
           name: "チームブルー",
@@ -887,13 +887,13 @@ module.exports = {
           simplified: true,
           avatarUrls: {
             "48x48":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?pid=12014&avatarId=11719",
             "24x24":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=small&s=small&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=small&s=small&pid=12014&avatarId=11719",
             "16x16":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=12014&avatarId=11719",
             "32x32":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=12014&avatarId=11719",
           },
         },
         fixVersions: [],
@@ -907,7 +907,7 @@ module.exports = {
         lastViewed: "2021-01-22T14:00:57.891+0900",
         watches: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issue/RUSE-873/watchers",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issue/RUSE-873/watchers",
           watchCount: 1,
           isWatching: false,
         },
@@ -915,9 +915,9 @@ module.exports = {
         customfield_10020: "0|i01lmr:3",
         customfield_10021: null,
         priority: {
-          self: "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+          self: "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
           iconUrl:
-            "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+            "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
           name: "Medium",
           id: "3",
         },
@@ -940,14 +940,14 @@ module.exports = {
         updated: "2021-01-22T14:04:23.072+0900",
         status: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/status/10369",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/status/10369",
           description: "",
-          iconUrl: "https://marketenterprise.atlassian.net/",
+          iconUrl: "https://xxxxxxxx.atlassian.net/",
           name: "To Do",
           id: "10369",
           statusCategory: {
             self:
-              "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/2",
+              "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/2",
             id: 2,
             key: "new",
             colorName: "blue-gray",
@@ -2064,7 +2064,7 @@ module.exports = {
         summary: "[TOPページ改修]サイト上のヘッダ・フッタを更新する（PC/SP）",
         creator: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/user?accountId=557058%3Ab460699a-65b7-4bf0-86c0-e08bdaba4d25",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/user?accountId=557058%3Ab460699a-65b7-4bf0-86c0-e08bdaba4d25",
           accountId: "557058:b460699a-65b7-4bf0-86c0-e08bdaba4d25",
           avatarUrls: {
             "48x48":
@@ -2086,19 +2086,19 @@ module.exports = {
             id: "28472",
             key: "RUSE-875",
             self:
-              "https://marketenterprise.atlassian.net/rest/api/3/issue/28472",
+              "https://xxxxxxxx.atlassian.net/rest/api/3/issue/28472",
             fields: {
               summary: "[査定フォーム] ヘッダ・フッタを更新する（PC/SP）",
               status: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/status/10369",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/status/10369",
                 description: "",
-                iconUrl: "https://marketenterprise.atlassian.net/",
+                iconUrl: "https://xxxxxxxx.atlassian.net/",
                 name: "To Do",
                 id: "10369",
                 statusCategory: {
                   self:
-                    "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/2",
+                    "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/2",
                   id: 2,
                   key: "new",
                   colorName: "blue-gray",
@@ -2107,20 +2107,20 @@ module.exports = {
               },
               priority: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
                 iconUrl:
-                  "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+                  "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
                 name: "Medium",
                 id: "3",
               },
               issuetype: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10153",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10153",
                 id: "10153",
                 description:
                   "サブタスクでは、大規模なタスク内の小さな作業を追跡します。",
                 iconUrl:
-                  "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
+                  "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
                 name: "サブタスク",
                 subtask: true,
                 avatarId: 10316,
@@ -2133,19 +2133,19 @@ module.exports = {
             id: "28471",
             key: "RUSE-874",
             self:
-              "https://marketenterprise.atlassian.net/rest/api/3/issue/28471",
+              "https://xxxxxxxx.atlassian.net/rest/api/3/issue/28471",
             fields: {
               summary: "[おいくらサイト全般] ヘッダ・フッタを更新する（PC/SP）",
               status: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/status/10369",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/status/10369",
                 description: "",
-                iconUrl: "https://marketenterprise.atlassian.net/",
+                iconUrl: "https://xxxxxxxx.atlassian.net/",
                 name: "To Do",
                 id: "10369",
                 statusCategory: {
                   self:
-                    "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/2",
+                    "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/2",
                   id: 2,
                   key: "new",
                   colorName: "blue-gray",
@@ -2154,20 +2154,20 @@ module.exports = {
               },
               priority: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
                 iconUrl:
-                  "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+                  "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
                 name: "Medium",
                 id: "3",
               },
               issuetype: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10153",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10153",
                 id: "10153",
                 description:
                   "サブタスクでは、大規模なタスク内の小さな作業を追跡します。",
                 iconUrl:
-                  "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
+                  "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
                 name: "サブタスク",
                 subtask: true,
                 avatarId: 10316,
@@ -2179,7 +2179,7 @@ module.exports = {
         ],
         reporter: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/user?accountId=557058%3Ab460699a-65b7-4bf0-86c0-e08bdaba4d25",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/user?accountId=557058%3Ab460699a-65b7-4bf0-86c0-e08bdaba4d25",
           accountId: "557058:b460699a-65b7-4bf0-86c0-e08bdaba4d25",
           avatarUrls: {
             "48x48":
@@ -2223,7 +2223,7 @@ module.exports = {
         },
         votes: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issue/RUSE-873/votes",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issue/RUSE-873/votes",
           votes: 0,
           hasVoted: false,
         },
@@ -2233,17 +2233,17 @@ module.exports = {
       expand:
         "operations,versionedRepresentations,editmeta,changelog,renderedFields",
       id: "28469",
-      self: "https://marketenterprise.atlassian.net/rest/api/3/issue/28469",
+      self: "https://xxxxxxxx.atlassian.net/rest/api/3/issue/28469",
       key: "RUSE-872",
       fields: {
         statuscategorychangedate: "2021-01-21T10:15:33.502+0900",
         issuetype: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10150",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10150",
           id: "10150",
           description: "さまざまな小規模作業。",
           iconUrl:
-            "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10318&avatarType=issuetype",
+            "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10318&avatarType=issuetype",
           name: "タスク",
           subtask: false,
           avatarId: 10318,
@@ -2253,19 +2253,19 @@ module.exports = {
         parent: {
           id: "26876",
           key: "RUSE-1",
-          self: "https://marketenterprise.atlassian.net/rest/api/3/issue/26876",
+          self: "https://xxxxxxxx.atlassian.net/rest/api/3/issue/26876",
           fields: {
             summary: "おいくら-保守",
             status: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/status/10369",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/status/10369",
               description: "",
-              iconUrl: "https://marketenterprise.atlassian.net/",
+              iconUrl: "https://xxxxxxxx.atlassian.net/",
               name: "To Do",
               id: "10369",
               statusCategory: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/2",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/2",
                 id: 2,
                 key: "new",
                 colorName: "blue-gray",
@@ -2274,20 +2274,20 @@ module.exports = {
             },
             priority: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
               iconUrl:
-                "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+                "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
               name: "Medium",
               id: "3",
             },
             issuetype: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10152",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10152",
               id: "10152",
               description:
                 "エピックでは、一連の関連するバグ、ストーリー、タスクを追跡します。",
               iconUrl:
-                "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10307&avatarType=issuetype",
+                "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10307&avatarType=issuetype",
               name: "エピック",
               subtask: false,
               avatarId: 10307,
@@ -2299,7 +2299,7 @@ module.exports = {
         timespent: null,
         project: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/project/12014",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/project/12014",
           id: "12014",
           key: "RUSE",
           name: "チームブルー",
@@ -2307,13 +2307,13 @@ module.exports = {
           simplified: true,
           avatarUrls: {
             "48x48":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?pid=12014&avatarId=11719",
             "24x24":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=small&s=small&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=small&s=small&pid=12014&avatarId=11719",
             "16x16":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=12014&avatarId=11719",
             "32x32":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=12014&avatarId=11719",
           },
         },
         fixVersions: [],
@@ -2326,7 +2326,7 @@ module.exports = {
         workratio: -1,
         watches: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issue/RUSE-872/watchers",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issue/RUSE-872/watchers",
           watchCount: 1,
           isWatching: false,
         },
@@ -2335,9 +2335,9 @@ module.exports = {
         customfield_10020: "0|i01lmr:9",
         customfield_10021: null,
         priority: {
-          self: "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+          self: "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
           iconUrl:
-            "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+            "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
           name: "Medium",
           id: "3",
         },
@@ -2359,33 +2359,33 @@ module.exports = {
           {
             id: "23687",
             self:
-              "https://marketenterprise.atlassian.net/rest/api/3/issueLink/23687",
+              "https://xxxxxxxx.atlassian.net/rest/api/3/issueLink/23687",
             type: {
               id: "10000",
               name: "Blocks",
               inward: "is blocked by",
               outward: "blocks",
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/issueLinkType/10000",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/issueLinkType/10000",
             },
             inwardIssue: {
               id: "28369",
               key: "RUSE-802",
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/issue/28369",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/issue/28369",
               fields: {
                 summary:
                   "査定結果を見たユーザーから店舗へメーラー以外で問い合わせできる（UI以外のみ作成）",
                 status: {
                   self:
-                    "https://marketenterprise.atlassian.net/rest/api/3/status/10421",
+                    "https://xxxxxxxx.atlassian.net/rest/api/3/status/10421",
                   description: "",
-                  iconUrl: "https://marketenterprise.atlassian.net/",
+                  iconUrl: "https://xxxxxxxx.atlassian.net/",
                   name: "RV中",
                   id: "10421",
                   statusCategory: {
                     self:
-                      "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/4",
+                      "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/4",
                     id: 4,
                     key: "indeterminate",
                     colorName: "yellow",
@@ -2394,19 +2394,19 @@ module.exports = {
                 },
                 priority: {
                   self:
-                    "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+                    "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
                   iconUrl:
-                    "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+                    "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
                   name: "Medium",
                   id: "3",
                 },
                 issuetype: {
                   self:
-                    "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10150",
+                    "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10150",
                   id: "10150",
                   description: "さまざまな小規模作業。",
                   iconUrl:
-                    "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10318&avatarType=issuetype",
+                    "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10318&avatarType=issuetype",
                   name: "タスク",
                   subtask: false,
                   avatarId: 10318,
@@ -2419,7 +2419,7 @@ module.exports = {
         ],
         assignee: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/user?accountId=557058%3Ab460699a-65b7-4bf0-86c0-e08bdaba4d25",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/user?accountId=557058%3Ab460699a-65b7-4bf0-86c0-e08bdaba4d25",
           accountId: "557058:b460699a-65b7-4bf0-86c0-e08bdaba4d25",
           avatarUrls: {
             "48x48":
@@ -2439,14 +2439,14 @@ module.exports = {
         updated: "2021-01-22T08:31:50.140+0900",
         status: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/status/10369",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/status/10369",
           description: "",
-          iconUrl: "https://marketenterprise.atlassian.net/",
+          iconUrl: "https://xxxxxxxx.atlassian.net/",
           name: "To Do",
           id: "10369",
           statusCategory: {
             self:
-              "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/2",
+              "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/2",
             id: 2,
             key: "new",
             colorName: "blue-gray",
@@ -2844,7 +2844,7 @@ module.exports = {
           "[お客様マイページ] VNで開発したものに不足している要素や分岐を加えて、一括査定・全国査定の両方に対応する形にする",
         creator: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/user?accountId=557058%3Ab460699a-65b7-4bf0-86c0-e08bdaba4d25",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/user?accountId=557058%3Ab460699a-65b7-4bf0-86c0-e08bdaba4d25",
           accountId: "557058:b460699a-65b7-4bf0-86c0-e08bdaba4d25",
           avatarUrls: {
             "48x48":
@@ -2864,7 +2864,7 @@ module.exports = {
         subtasks: [],
         reporter: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/user?accountId=557058%3Ab460699a-65b7-4bf0-86c0-e08bdaba4d25",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/user?accountId=557058%3Ab460699a-65b7-4bf0-86c0-e08bdaba4d25",
           accountId: "557058:b460699a-65b7-4bf0-86c0-e08bdaba4d25",
           avatarUrls: {
             "48x48":
@@ -2908,7 +2908,7 @@ module.exports = {
         },
         votes: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issue/RUSE-872/votes",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issue/RUSE-872/votes",
           votes: 0,
           hasVoted: false,
         },
@@ -2918,17 +2918,17 @@ module.exports = {
       expand:
         "operations,versionedRepresentations,editmeta,changelog,renderedFields",
       id: "28464",
-      self: "https://marketenterprise.atlassian.net/rest/api/3/issue/28464",
+      self: "https://xxxxxxxx.atlassian.net/rest/api/3/issue/28464",
       key: "RUSE-868",
       fields: {
         statuscategorychangedate: "2021-01-20T15:32:12.513+0900",
         issuetype: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10149",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10149",
           id: "10149",
           description: "ユーザー目標として表明された機能。",
           iconUrl:
-            "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10315&avatarType=issuetype",
+            "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10315&avatarType=issuetype",
           name: "ストーリー",
           subtask: false,
           avatarId: 10315,
@@ -2938,19 +2938,19 @@ module.exports = {
         parent: {
           id: "27297",
           key: "RUSE-172",
-          self: "https://marketenterprise.atlassian.net/rest/api/3/issue/27297",
+          self: "https://xxxxxxxx.atlassian.net/rest/api/3/issue/27297",
           fields: {
             summary: "おいくら-Zプラン",
             status: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/status/10369",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/status/10369",
               description: "",
-              iconUrl: "https://marketenterprise.atlassian.net/",
+              iconUrl: "https://xxxxxxxx.atlassian.net/",
               name: "To Do",
               id: "10369",
               statusCategory: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/2",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/2",
                 id: 2,
                 key: "new",
                 colorName: "blue-gray",
@@ -2959,20 +2959,20 @@ module.exports = {
             },
             priority: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
               iconUrl:
-                "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+                "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
               name: "Medium",
               id: "3",
             },
             issuetype: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10152",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10152",
               id: "10152",
               description:
                 "エピックでは、一連の関連するバグ、ストーリー、タスクを追跡します。",
               iconUrl:
-                "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10307&avatarType=issuetype",
+                "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10307&avatarType=issuetype",
               name: "エピック",
               subtask: false,
               avatarId: 10307,
@@ -2984,7 +2984,7 @@ module.exports = {
         timespent: null,
         project: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/project/12014",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/project/12014",
           id: "12014",
           key: "RUSE",
           name: "チームブルー",
@@ -2992,13 +2992,13 @@ module.exports = {
           simplified: true,
           avatarUrls: {
             "48x48":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?pid=12014&avatarId=11719",
             "24x24":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=small&s=small&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=small&s=small&pid=12014&avatarId=11719",
             "16x16":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=12014&avatarId=11719",
             "32x32":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=12014&avatarId=11719",
           },
         },
         fixVersions: [],
@@ -3011,7 +3011,7 @@ module.exports = {
         workratio: -1,
         watches: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issue/RUSE-868/watchers",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issue/RUSE-868/watchers",
           watchCount: 1,
           isWatching: true,
         },
@@ -3020,9 +3020,9 @@ module.exports = {
         customfield_10020: "0|i01lmy:",
         customfield_10021: null,
         priority: {
-          self: "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+          self: "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
           iconUrl:
-            "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+            "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
           name: "Medium",
           id: "3",
         },
@@ -3045,14 +3045,14 @@ module.exports = {
         updated: "2021-01-22T13:55:39.687+0900",
         status: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/status/10369",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/status/10369",
           description: "",
-          iconUrl: "https://marketenterprise.atlassian.net/",
+          iconUrl: "https://xxxxxxxx.atlassian.net/",
           name: "To Do",
           id: "10369",
           statusCategory: {
             self:
-              "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/2",
+              "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/2",
             id: 2,
             key: "new",
             colorName: "blue-gray",
@@ -3234,7 +3234,7 @@ module.exports = {
                               type: "link",
                               attrs: {
                                 href:
-                                  "https://marketenterprise.atlassian.net/browse/RUSE-872",
+                                  "https://xxxxxxxx.atlassian.net/browse/RUSE-872",
                               },
                             },
                           ],
@@ -4002,9 +4002,9 @@ module.exports = {
         summary: "※853関連※[マイページ] 一括査定を全国査定のUIに寄せる",
         creator: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
           accountId: "557058:17fcc822-605c-48bb-97b3-2057e2250010",
-          emailAddress: "nakama@marketenterprise.co.jp",
+          emailAddress: "nakama@xxxxxxxx.co.jp",
           avatarUrls: {
             "48x48":
               "https://secure.gravatar.com/avatar/162cbe566985300a2e5314ede23d79f1?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTN-6.png",
@@ -4025,20 +4025,20 @@ module.exports = {
             id: "28467",
             key: "RUSE-870",
             self:
-              "https://marketenterprise.atlassian.net/rest/api/3/issue/28467",
+              "https://xxxxxxxx.atlassian.net/rest/api/3/issue/28467",
             fields: {
               summary:
                 "[加盟店マイページ（PC/SP）] baitai=zでの分岐をなくし、単一のフォーマットで一括査定・全国査定の査定結果を表示させる",
               status: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/status/10369",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/status/10369",
                 description: "",
-                iconUrl: "https://marketenterprise.atlassian.net/",
+                iconUrl: "https://xxxxxxxx.atlassian.net/",
                 name: "To Do",
                 id: "10369",
                 statusCategory: {
                   self:
-                    "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/2",
+                    "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/2",
                   id: 2,
                   key: "new",
                   colorName: "blue-gray",
@@ -4047,20 +4047,20 @@ module.exports = {
               },
               priority: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
                 iconUrl:
-                  "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+                  "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
                 name: "Medium",
                 id: "3",
               },
               issuetype: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10153",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10153",
                 id: "10153",
                 description:
                   "サブタスクでは、大規模なタスク内の小さな作業を追跡します。",
                 iconUrl:
-                  "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
+                  "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
                 name: "サブタスク",
                 subtask: true,
                 avatarId: 10316,
@@ -4073,20 +4073,20 @@ module.exports = {
             id: "28468",
             key: "RUSE-871",
             self:
-              "https://marketenterprise.atlassian.net/rest/api/3/issue/28468",
+              "https://xxxxxxxx.atlassian.net/rest/api/3/issue/28468",
             fields: {
               summary:
                 "[グループログイン（PC/SP）] baitai=zでの分岐をなくし、単一のフォーマットで一括査定・全国査定の査定結果を表示させる",
               status: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/status/10369",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/status/10369",
                 description: "",
-                iconUrl: "https://marketenterprise.atlassian.net/",
+                iconUrl: "https://xxxxxxxx.atlassian.net/",
                 name: "To Do",
                 id: "10369",
                 statusCategory: {
                   self:
-                    "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/2",
+                    "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/2",
                   id: 2,
                   key: "new",
                   colorName: "blue-gray",
@@ -4095,20 +4095,20 @@ module.exports = {
               },
               priority: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
                 iconUrl:
-                  "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+                  "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
                 name: "Medium",
                 id: "3",
               },
               issuetype: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10153",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10153",
                 id: "10153",
                 description:
                   "サブタスクでは、大規模なタスク内の小さな作業を追跡します。",
                 iconUrl:
-                  "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
+                  "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
                 name: "サブタスク",
                 subtask: true,
                 avatarId: 10316,
@@ -4121,20 +4121,20 @@ module.exports = {
             id: "28466",
             key: "RUSE-869",
             self:
-              "https://marketenterprise.atlassian.net/rest/api/3/issue/28466",
+              "https://xxxxxxxx.atlassian.net/rest/api/3/issue/28466",
             fields: {
               summary:
                 "[お客様マイページ] baitai=zでの分岐をなくし、単一のフォーマットで一括査定・全国査定の査定結果を表示させる",
               status: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/status/10369",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/status/10369",
                 description: "",
-                iconUrl: "https://marketenterprise.atlassian.net/",
+                iconUrl: "https://xxxxxxxx.atlassian.net/",
                 name: "To Do",
                 id: "10369",
                 statusCategory: {
                   self:
-                    "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/2",
+                    "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/2",
                   id: 2,
                   key: "new",
                   colorName: "blue-gray",
@@ -4143,20 +4143,20 @@ module.exports = {
               },
               priority: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
                 iconUrl:
-                  "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+                  "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
                 name: "Medium",
                 id: "3",
               },
               issuetype: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10153",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10153",
                 id: "10153",
                 description:
                   "サブタスクでは、大規模なタスク内の小さな作業を追跡します。",
                 iconUrl:
-                  "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
+                  "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
                 name: "サブタスク",
                 subtask: true,
                 avatarId: 10316,
@@ -4168,9 +4168,9 @@ module.exports = {
         ],
         reporter: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
           accountId: "557058:17fcc822-605c-48bb-97b3-2057e2250010",
-          emailAddress: "nakama@marketenterprise.co.jp",
+          emailAddress: "nakama@xxxxxxxx.co.jp",
           avatarUrls: {
             "48x48":
               "https://secure.gravatar.com/avatar/162cbe566985300a2e5314ede23d79f1?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTN-6.png",
@@ -4213,7 +4213,7 @@ module.exports = {
         },
         votes: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issue/RUSE-868/votes",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issue/RUSE-868/votes",
           votes: 0,
           hasVoted: false,
         },
@@ -4223,17 +4223,17 @@ module.exports = {
       expand:
         "operations,versionedRepresentations,editmeta,changelog,renderedFields",
       id: "28454",
-      self: "https://marketenterprise.atlassian.net/rest/api/3/issue/28454",
+      self: "https://xxxxxxxx.atlassian.net/rest/api/3/issue/28454",
       key: "RUSE-859",
       fields: {
         statuscategorychangedate: "2021-01-19T16:34:09.414+0900",
         issuetype: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10151",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10151",
           id: "10151",
           description: "問題またはエラー。",
           iconUrl:
-            "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10303&avatarType=issuetype",
+            "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10303&avatarType=issuetype",
           name: "バグ",
           subtask: false,
           avatarId: 10303,
@@ -4243,19 +4243,19 @@ module.exports = {
         parent: {
           id: "26876",
           key: "RUSE-1",
-          self: "https://marketenterprise.atlassian.net/rest/api/3/issue/26876",
+          self: "https://xxxxxxxx.atlassian.net/rest/api/3/issue/26876",
           fields: {
             summary: "おいくら-保守",
             status: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/status/10369",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/status/10369",
               description: "",
-              iconUrl: "https://marketenterprise.atlassian.net/",
+              iconUrl: "https://xxxxxxxx.atlassian.net/",
               name: "To Do",
               id: "10369",
               statusCategory: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/2",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/2",
                 id: 2,
                 key: "new",
                 colorName: "blue-gray",
@@ -4264,20 +4264,20 @@ module.exports = {
             },
             priority: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
               iconUrl:
-                "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+                "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
               name: "Medium",
               id: "3",
             },
             issuetype: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10152",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10152",
               id: "10152",
               description:
                 "エピックでは、一連の関連するバグ、ストーリー、タスクを追跡します。",
               iconUrl:
-                "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10307&avatarType=issuetype",
+                "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10307&avatarType=issuetype",
               name: "エピック",
               subtask: false,
               avatarId: 10307,
@@ -4289,7 +4289,7 @@ module.exports = {
         timespent: null,
         project: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/project/12014",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/project/12014",
           id: "12014",
           key: "RUSE",
           name: "チームブルー",
@@ -4297,13 +4297,13 @@ module.exports = {
           simplified: true,
           avatarUrls: {
             "48x48":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?pid=12014&avatarId=11719",
             "24x24":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=small&s=small&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=small&s=small&pid=12014&avatarId=11719",
             "16x16":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=12014&avatarId=11719",
             "32x32":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=12014&avatarId=11719",
           },
         },
         fixVersions: [],
@@ -4316,7 +4316,7 @@ module.exports = {
         workratio: -1,
         watches: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issue/RUSE-859/watchers",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issue/RUSE-859/watchers",
           watchCount: 1,
           isWatching: true,
         },
@@ -4325,9 +4325,9 @@ module.exports = {
         customfield_10020: "0|i01m33:",
         customfield_10021: null,
         priority: {
-          self: "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+          self: "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
           iconUrl:
-            "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+            "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
           name: "Medium",
           id: "3",
         },
@@ -4349,9 +4349,9 @@ module.exports = {
         issuelinks: [],
         assignee: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
           accountId: "557058:17fcc822-605c-48bb-97b3-2057e2250010",
-          emailAddress: "nakama@marketenterprise.co.jp",
+          emailAddress: "nakama@xxxxxxxx.co.jp",
           avatarUrls: {
             "48x48":
               "https://secure.gravatar.com/avatar/162cbe566985300a2e5314ede23d79f1?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTN-6.png",
@@ -4370,14 +4370,14 @@ module.exports = {
         updated: "2021-01-22T16:22:20.011+0900",
         status: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/status/10421",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/status/10421",
           description: "",
-          iconUrl: "https://marketenterprise.atlassian.net/",
+          iconUrl: "https://xxxxxxxx.atlassian.net/",
           name: "RV中",
           id: "10421",
           statusCategory: {
             self:
-              "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/4",
+              "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/4",
             id: 4,
             key: "indeterminate",
             colorName: "yellow",
@@ -4747,9 +4747,9 @@ module.exports = {
         summary: "一部のページでtagmangerがエラーを起こしている",
         creator: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
           accountId: "557058:17fcc822-605c-48bb-97b3-2057e2250010",
-          emailAddress: "nakama@marketenterprise.co.jp",
+          emailAddress: "nakama@xxxxxxxx.co.jp",
           avatarUrls: {
             "48x48":
               "https://secure.gravatar.com/avatar/162cbe566985300a2e5314ede23d79f1?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTN-6.png",
@@ -4768,9 +4768,9 @@ module.exports = {
         subtasks: [],
         reporter: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
           accountId: "557058:17fcc822-605c-48bb-97b3-2057e2250010",
-          emailAddress: "nakama@marketenterprise.co.jp",
+          emailAddress: "nakama@xxxxxxxx.co.jp",
           avatarUrls: {
             "48x48":
               "https://secure.gravatar.com/avatar/162cbe566985300a2e5314ede23d79f1?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTN-6.png",
@@ -4813,7 +4813,7 @@ module.exports = {
         },
         votes: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issue/RUSE-859/votes",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issue/RUSE-859/votes",
           votes: 0,
           hasVoted: false,
         },
@@ -4823,17 +4823,17 @@ module.exports = {
       expand:
         "operations,versionedRepresentations,editmeta,changelog,renderedFields",
       id: "28446",
-      self: "https://marketenterprise.atlassian.net/rest/api/3/issue/28446",
+      self: "https://xxxxxxxx.atlassian.net/rest/api/3/issue/28446",
       key: "RUSE-853",
       fields: {
         statuscategorychangedate: "2021-01-22T08:30:41.468+0900",
         issuetype: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10149",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10149",
           id: "10149",
           description: "ユーザー目標として表明された機能。",
           iconUrl:
-            "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10315&avatarType=issuetype",
+            "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10315&avatarType=issuetype",
           name: "ストーリー",
           subtask: false,
           avatarId: 10315,
@@ -4843,19 +4843,19 @@ module.exports = {
         parent: {
           id: "27297",
           key: "RUSE-172",
-          self: "https://marketenterprise.atlassian.net/rest/api/3/issue/27297",
+          self: "https://xxxxxxxx.atlassian.net/rest/api/3/issue/27297",
           fields: {
             summary: "おいくら-Zプラン",
             status: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/status/10369",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/status/10369",
               description: "",
-              iconUrl: "https://marketenterprise.atlassian.net/",
+              iconUrl: "https://xxxxxxxx.atlassian.net/",
               name: "To Do",
               id: "10369",
               statusCategory: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/2",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/2",
                 id: 2,
                 key: "new",
                 colorName: "blue-gray",
@@ -4864,20 +4864,20 @@ module.exports = {
             },
             priority: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
               iconUrl:
-                "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+                "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
               name: "Medium",
               id: "3",
             },
             issuetype: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10152",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10152",
               id: "10152",
               description:
                 "エピックでは、一連の関連するバグ、ストーリー、タスクを追跡します。",
               iconUrl:
-                "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10307&avatarType=issuetype",
+                "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10307&avatarType=issuetype",
               name: "エピック",
               subtask: false,
               avatarId: 10307,
@@ -4889,7 +4889,7 @@ module.exports = {
         timespent: null,
         project: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/project/12014",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/project/12014",
           id: "12014",
           key: "RUSE",
           name: "チームブルー",
@@ -4897,13 +4897,13 @@ module.exports = {
           simplified: true,
           avatarUrls: {
             "48x48":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?pid=12014&avatarId=11719",
             "24x24":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=small&s=small&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=small&s=small&pid=12014&avatarId=11719",
             "16x16":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=12014&avatarId=11719",
             "32x32":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=12014&avatarId=11719",
           },
         },
         fixVersions: [],
@@ -4916,7 +4916,7 @@ module.exports = {
         workratio: -1,
         watches: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issue/RUSE-853/watchers",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issue/RUSE-853/watchers",
           watchCount: 1,
           isWatching: true,
         },
@@ -4926,9 +4926,9 @@ module.exports = {
         customfield_10021: null,
         customfield_10100: null,
         priority: {
-          self: "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+          self: "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
           iconUrl:
-            "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+            "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
           name: "Medium",
           id: "3",
         },
@@ -4949,7 +4949,7 @@ module.exports = {
         issuelinks: [],
         assignee: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/user?accountId=5dbb9fecb8463d0c4fb6ed2b",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/user?accountId=5dbb9fecb8463d0c4fb6ed2b",
           accountId: "5dbb9fecb8463d0c4fb6ed2b",
           avatarUrls: {
             "48x48":
@@ -4969,14 +4969,14 @@ module.exports = {
         updated: "2021-01-22T17:07:25.757+0900",
         status: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/status/10421",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/status/10421",
           description: "",
-          iconUrl: "https://marketenterprise.atlassian.net/",
+          iconUrl: "https://xxxxxxxx.atlassian.net/",
           name: "RV中",
           id: "10421",
           statusCategory: {
             self:
-              "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/4",
+              "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/4",
             id: 4,
             key: "indeterminate",
             colorName: "yellow",
@@ -5450,13 +5450,13 @@ module.exports = {
                                 {
                                   type: "text",
                                   text:
-                                    "https://marketenterprise.slack.com/archives/G015A8A6U67/p1611271341004600",
+                                    "https://xxxxxxxx.slack.com/archives/G015A8A6U67/p1611271341004600",
                                   marks: [
                                     {
                                       type: "link",
                                       attrs: {
                                         href:
-                                          "https://marketenterprise.slack.com/archives/G015A8A6U67/p1611271341004600",
+                                          "https://xxxxxxxx.slack.com/archives/G015A8A6U67/p1611271341004600",
                                       },
                                     },
                                   ],
@@ -5906,9 +5906,9 @@ module.exports = {
           "一括査定のUIに全国査定の項目を足して、一括・全国両方に送信する",
         creator: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
           accountId: "557058:17fcc822-605c-48bb-97b3-2057e2250010",
-          emailAddress: "nakama@marketenterprise.co.jp",
+          emailAddress: "nakama@xxxxxxxx.co.jp",
           avatarUrls: {
             "48x48":
               "https://secure.gravatar.com/avatar/162cbe566985300a2e5314ede23d79f1?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTN-6.png",
@@ -5929,19 +5929,19 @@ module.exports = {
             id: "28448",
             key: "RUSE-855",
             self:
-              "https://marketenterprise.atlassian.net/rest/api/3/issue/28448",
+              "https://xxxxxxxx.atlassian.net/rest/api/3/issue/28448",
             fields: {
               summary: "[Form]一括査定でもZと同じデータを送信できる",
               status: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/status/10370",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/status/10370",
                 description: "",
-                iconUrl: "https://marketenterprise.atlassian.net/",
+                iconUrl: "https://xxxxxxxx.atlassian.net/",
                 name: "作業中",
                 id: "10370",
                 statusCategory: {
                   self:
-                    "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/4",
+                    "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/4",
                   id: 4,
                   key: "indeterminate",
                   colorName: "yellow",
@@ -5950,20 +5950,20 @@ module.exports = {
               },
               priority: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
                 iconUrl:
-                  "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+                  "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
                 name: "Medium",
                 id: "3",
               },
               issuetype: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10153",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10153",
                 id: "10153",
                 description:
                   "サブタスクでは、大規模なタスク内の小さな作業を追跡します。",
                 iconUrl:
-                  "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
+                  "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
                 name: "サブタスク",
                 subtask: true,
                 avatarId: 10316,
@@ -5976,20 +5976,20 @@ module.exports = {
             id: "28447",
             key: "RUSE-854",
             self:
-              "https://marketenterprise.atlassian.net/rest/api/3/issue/28447",
+              "https://xxxxxxxx.atlassian.net/rest/api/3/issue/28447",
             fields: {
               summary:
                 "[API]選択された買取方法での店舗数が20件に満たなかった場合Zにも依頼を送る",
               status: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/status/10421",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/status/10421",
                 description: "",
-                iconUrl: "https://marketenterprise.atlassian.net/",
+                iconUrl: "https://xxxxxxxx.atlassian.net/",
                 name: "RV中",
                 id: "10421",
                 statusCategory: {
                   self:
-                    "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/4",
+                    "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/4",
                   id: 4,
                   key: "indeterminate",
                   colorName: "yellow",
@@ -5998,20 +5998,20 @@ module.exports = {
               },
               priority: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
                 iconUrl:
-                  "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+                  "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
                 name: "Medium",
                 id: "3",
               },
               issuetype: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10153",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10153",
                 id: "10153",
                 description:
                   "サブタスクでは、大規模なタスク内の小さな作業を追跡します。",
                 iconUrl:
-                  "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
+                  "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
                 name: "サブタスク",
                 subtask: true,
                 avatarId: 10316,
@@ -6023,9 +6023,9 @@ module.exports = {
         ],
         reporter: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
           accountId: "557058:17fcc822-605c-48bb-97b3-2057e2250010",
-          emailAddress: "nakama@marketenterprise.co.jp",
+          emailAddress: "nakama@xxxxxxxx.co.jp",
           avatarUrls: {
             "48x48":
               "https://secure.gravatar.com/avatar/162cbe566985300a2e5314ede23d79f1?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTN-6.png",
@@ -6068,7 +6068,7 @@ module.exports = {
         },
         votes: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issue/RUSE-853/votes",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issue/RUSE-853/votes",
           votes: 0,
           hasVoted: false,
         },
@@ -6078,17 +6078,17 @@ module.exports = {
       expand:
         "operations,versionedRepresentations,editmeta,changelog,renderedFields",
       id: "28442",
-      self: "https://marketenterprise.atlassian.net/rest/api/3/issue/28442",
+      self: "https://xxxxxxxx.atlassian.net/rest/api/3/issue/28442",
       key: "RUSE-850",
       fields: {
         statuscategorychangedate: "2021-01-21T14:23:04.116+0900",
         issuetype: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10149",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10149",
           id: "10149",
           description: "ユーザー目標として表明された機能。",
           iconUrl:
-            "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10315&avatarType=issuetype",
+            "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10315&avatarType=issuetype",
           name: "ストーリー",
           subtask: false,
           avatarId: 10315,
@@ -6098,19 +6098,19 @@ module.exports = {
         parent: {
           id: "27297",
           key: "RUSE-172",
-          self: "https://marketenterprise.atlassian.net/rest/api/3/issue/27297",
+          self: "https://xxxxxxxx.atlassian.net/rest/api/3/issue/27297",
           fields: {
             summary: "おいくら-Zプラン",
             status: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/status/10369",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/status/10369",
               description: "",
-              iconUrl: "https://marketenterprise.atlassian.net/",
+              iconUrl: "https://xxxxxxxx.atlassian.net/",
               name: "To Do",
               id: "10369",
               statusCategory: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/2",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/2",
                 id: 2,
                 key: "new",
                 colorName: "blue-gray",
@@ -6119,20 +6119,20 @@ module.exports = {
             },
             priority: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
               iconUrl:
-                "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+                "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
               name: "Medium",
               id: "3",
             },
             issuetype: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10152",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10152",
               id: "10152",
               description:
                 "エピックでは、一連の関連するバグ、ストーリー、タスクを追跡します。",
               iconUrl:
-                "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10307&avatarType=issuetype",
+                "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10307&avatarType=issuetype",
               name: "エピック",
               subtask: false,
               avatarId: 10307,
@@ -6144,7 +6144,7 @@ module.exports = {
         timespent: null,
         project: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/project/12014",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/project/12014",
           id: "12014",
           key: "RUSE",
           name: "チームブルー",
@@ -6152,13 +6152,13 @@ module.exports = {
           simplified: true,
           avatarUrls: {
             "48x48":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?pid=12014&avatarId=11719",
             "24x24":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=small&s=small&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=small&s=small&pid=12014&avatarId=11719",
             "16x16":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=12014&avatarId=11719",
             "32x32":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=12014&avatarId=11719",
           },
         },
         fixVersions: [],
@@ -6171,7 +6171,7 @@ module.exports = {
         workratio: -1,
         watches: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issue/RUSE-850/watchers",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issue/RUSE-850/watchers",
           watchCount: 1,
           isWatching: true,
         },
@@ -6181,9 +6181,9 @@ module.exports = {
         customfield_10021: null,
         customfield_10100: null,
         priority: {
-          self: "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+          self: "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
           iconUrl:
-            "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+            "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
           name: "Medium",
           id: "3",
         },
@@ -6204,7 +6204,7 @@ module.exports = {
         issuelinks: [],
         assignee: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/user?accountId=557058%3Ab460699a-65b7-4bf0-86c0-e08bdaba4d25",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/user?accountId=557058%3Ab460699a-65b7-4bf0-86c0-e08bdaba4d25",
           accountId: "557058:b460699a-65b7-4bf0-86c0-e08bdaba4d25",
           avatarUrls: {
             "48x48":
@@ -6224,14 +6224,14 @@ module.exports = {
         updated: "2021-01-22T12:21:21.917+0900",
         status: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/status/10370",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/status/10370",
           description: "",
-          iconUrl: "https://marketenterprise.atlassian.net/",
+          iconUrl: "https://xxxxxxxx.atlassian.net/",
           name: "作業中",
           id: "10370",
           statusCategory: {
             self:
-              "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/4",
+              "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/4",
             id: 4,
             key: "indeterminate",
             colorName: "yellow",
@@ -6683,7 +6683,7 @@ module.exports = {
                               type: "link",
                               attrs: {
                                 href:
-                                  "https://marketenterprise.atlassian.net/browse/RUSE-802",
+                                  "https://xxxxxxxx.atlassian.net/browse/RUSE-802",
                               },
                             },
                           ],
@@ -6724,9 +6724,9 @@ module.exports = {
         summary: "UI側からメール送信できるようにする",
         creator: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
           accountId: "557058:17fcc822-605c-48bb-97b3-2057e2250010",
-          emailAddress: "nakama@marketenterprise.co.jp",
+          emailAddress: "nakama@xxxxxxxx.co.jp",
           avatarUrls: {
             "48x48":
               "https://secure.gravatar.com/avatar/162cbe566985300a2e5314ede23d79f1?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTN-6.png",
@@ -6747,19 +6747,19 @@ module.exports = {
             id: "28463",
             key: "RUSE-867",
             self:
-              "https://marketenterprise.atlassian.net/rest/api/3/issue/28463",
+              "https://xxxxxxxx.atlassian.net/rest/api/3/issue/28463",
             fields: {
               summary: "マイページからフォーム画面への繋ぎ込み",
               status: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/status/10369",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/status/10369",
                 description: "",
-                iconUrl: "https://marketenterprise.atlassian.net/",
+                iconUrl: "https://xxxxxxxx.atlassian.net/",
                 name: "To Do",
                 id: "10369",
                 statusCategory: {
                   self:
-                    "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/2",
+                    "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/2",
                   id: 2,
                   key: "new",
                   colorName: "blue-gray",
@@ -6768,20 +6768,20 @@ module.exports = {
               },
               priority: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
                 iconUrl:
-                  "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+                  "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
                 name: "Medium",
                 id: "3",
               },
               issuetype: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10153",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10153",
                 id: "10153",
                 description:
                   "サブタスクでは、大規模なタスク内の小さな作業を追跡します。",
                 iconUrl:
-                  "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
+                  "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
                 name: "サブタスク",
                 subtask: true,
                 avatarId: 10316,
@@ -6794,19 +6794,19 @@ module.exports = {
             id: "28462",
             key: "RUSE-866",
             self:
-              "https://marketenterprise.atlassian.net/rest/api/3/issue/28462",
+              "https://xxxxxxxx.atlassian.net/rest/api/3/issue/28462",
             fields: {
               summary: "SP：スタイルのフィッティング",
               status: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/status/10369",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/status/10369",
                 description: "",
-                iconUrl: "https://marketenterprise.atlassian.net/",
+                iconUrl: "https://xxxxxxxx.atlassian.net/",
                 name: "To Do",
                 id: "10369",
                 statusCategory: {
                   self:
-                    "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/2",
+                    "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/2",
                   id: 2,
                   key: "new",
                   colorName: "blue-gray",
@@ -6815,20 +6815,20 @@ module.exports = {
               },
               priority: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
                 iconUrl:
-                  "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+                  "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
                 name: "Medium",
                 id: "3",
               },
               issuetype: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10153",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10153",
                 id: "10153",
                 description:
                   "サブタスクでは、大規模なタスク内の小さな作業を追跡します。",
                 iconUrl:
-                  "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
+                  "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
                 name: "サブタスク",
                 subtask: true,
                 avatarId: 10316,
@@ -6841,19 +6841,19 @@ module.exports = {
             id: "28461",
             key: "RUSE-865",
             self:
-              "https://marketenterprise.atlassian.net/rest/api/3/issue/28461",
+              "https://xxxxxxxx.atlassian.net/rest/api/3/issue/28461",
             fields: {
               summary: "UI側からメール送信できるようにする",
               status: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/status/10369",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/status/10369",
                 description: "",
-                iconUrl: "https://marketenterprise.atlassian.net/",
+                iconUrl: "https://xxxxxxxx.atlassian.net/",
                 name: "To Do",
                 id: "10369",
                 statusCategory: {
                   self:
-                    "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/2",
+                    "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/2",
                   id: 2,
                   key: "new",
                   colorName: "blue-gray",
@@ -6862,20 +6862,20 @@ module.exports = {
               },
               priority: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
                 iconUrl:
-                  "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+                  "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
                 name: "Medium",
                 id: "3",
               },
               issuetype: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10153",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10153",
                 id: "10153",
                 description:
                   "サブタスクでは、大規模なタスク内の小さな作業を追跡します。",
                 iconUrl:
-                  "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
+                  "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
                 name: "サブタスク",
                 subtask: true,
                 avatarId: 10316,
@@ -6888,19 +6888,19 @@ module.exports = {
             id: "28460",
             key: "RUSE-864",
             self:
-              "https://marketenterprise.atlassian.net/rest/api/3/issue/28460",
+              "https://xxxxxxxx.atlassian.net/rest/api/3/issue/28460",
             fields: {
               summary: "PC：スタイルのフィッティング",
               status: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/status/10369",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/status/10369",
                 description: "",
-                iconUrl: "https://marketenterprise.atlassian.net/",
+                iconUrl: "https://xxxxxxxx.atlassian.net/",
                 name: "To Do",
                 id: "10369",
                 statusCategory: {
                   self:
-                    "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/2",
+                    "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/2",
                   id: 2,
                   key: "new",
                   colorName: "blue-gray",
@@ -6909,20 +6909,20 @@ module.exports = {
               },
               priority: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
                 iconUrl:
-                  "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+                  "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
                 name: "Medium",
                 id: "3",
               },
               issuetype: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10153",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10153",
                 id: "10153",
                 description:
                   "サブタスクでは、大規模なタスク内の小さな作業を追跡します。",
                 iconUrl:
-                  "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
+                  "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
                 name: "サブタスク",
                 subtask: true,
                 avatarId: 10316,
@@ -6935,19 +6935,19 @@ module.exports = {
             id: "28459",
             key: "RUSE-863",
             self:
-              "https://marketenterprise.atlassian.net/rest/api/3/issue/28459",
+              "https://xxxxxxxx.atlassian.net/rest/api/3/issue/28459",
             fields: {
               summary: "デザイン作成",
               status: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/status/10369",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/status/10369",
                 description: "",
-                iconUrl: "https://marketenterprise.atlassian.net/",
+                iconUrl: "https://xxxxxxxx.atlassian.net/",
                 name: "To Do",
                 id: "10369",
                 statusCategory: {
                   self:
-                    "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/2",
+                    "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/2",
                   id: 2,
                   key: "new",
                   colorName: "blue-gray",
@@ -6956,20 +6956,20 @@ module.exports = {
               },
               priority: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
                 iconUrl:
-                  "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+                  "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
                 name: "Medium",
                 id: "3",
               },
               issuetype: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10153",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10153",
                 id: "10153",
                 description:
                   "サブタスクでは、大規模なタスク内の小さな作業を追跡します。",
                 iconUrl:
-                  "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
+                  "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
                 name: "サブタスク",
                 subtask: true,
                 avatarId: 10316,
@@ -6981,9 +6981,9 @@ module.exports = {
         ],
         reporter: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
           accountId: "557058:17fcc822-605c-48bb-97b3-2057e2250010",
-          emailAddress: "nakama@marketenterprise.co.jp",
+          emailAddress: "nakama@xxxxxxxx.co.jp",
           avatarUrls: {
             "48x48":
               "https://secure.gravatar.com/avatar/162cbe566985300a2e5314ede23d79f1?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTN-6.png",
@@ -7026,7 +7026,7 @@ module.exports = {
         },
         votes: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issue/RUSE-850/votes",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issue/RUSE-850/votes",
           votes: 0,
           hasVoted: false,
         },
@@ -7036,17 +7036,17 @@ module.exports = {
       expand:
         "operations,versionedRepresentations,editmeta,changelog,renderedFields",
       id: "28439",
-      self: "https://marketenterprise.atlassian.net/rest/api/3/issue/28439",
+      self: "https://xxxxxxxx.atlassian.net/rest/api/3/issue/28439",
       key: "RUSE-847",
       fields: {
         statuscategorychangedate: "2021-01-13T18:09:56.278+0900",
         issuetype: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10150",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10150",
           id: "10150",
           description: "さまざまな小規模作業。",
           iconUrl:
-            "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10318&avatarType=issuetype",
+            "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10318&avatarType=issuetype",
           name: "タスク",
           subtask: false,
           avatarId: 10318,
@@ -7056,19 +7056,19 @@ module.exports = {
         parent: {
           id: "26876",
           key: "RUSE-1",
-          self: "https://marketenterprise.atlassian.net/rest/api/3/issue/26876",
+          self: "https://xxxxxxxx.atlassian.net/rest/api/3/issue/26876",
           fields: {
             summary: "おいくら-保守",
             status: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/status/10369",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/status/10369",
               description: "",
-              iconUrl: "https://marketenterprise.atlassian.net/",
+              iconUrl: "https://xxxxxxxx.atlassian.net/",
               name: "To Do",
               id: "10369",
               statusCategory: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/2",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/2",
                 id: 2,
                 key: "new",
                 colorName: "blue-gray",
@@ -7077,20 +7077,20 @@ module.exports = {
             },
             priority: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
               iconUrl:
-                "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+                "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
               name: "Medium",
               id: "3",
             },
             issuetype: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10152",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10152",
               id: "10152",
               description:
                 "エピックでは、一連の関連するバグ、ストーリー、タスクを追跡します。",
               iconUrl:
-                "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10307&avatarType=issuetype",
+                "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10307&avatarType=issuetype",
               name: "エピック",
               subtask: false,
               avatarId: 10307,
@@ -7102,7 +7102,7 @@ module.exports = {
         timespent: null,
         project: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/project/12014",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/project/12014",
           id: "12014",
           key: "RUSE",
           name: "チームブルー",
@@ -7110,13 +7110,13 @@ module.exports = {
           simplified: true,
           avatarUrls: {
             "48x48":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?pid=12014&avatarId=11719",
             "24x24":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=small&s=small&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=small&s=small&pid=12014&avatarId=11719",
             "16x16":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=12014&avatarId=11719",
             "32x32":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=12014&avatarId=11719",
           },
         },
         fixVersions: [],
@@ -7129,7 +7129,7 @@ module.exports = {
         workratio: -1,
         watches: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issue/RUSE-847/watchers",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issue/RUSE-847/watchers",
           watchCount: 1,
           isWatching: true,
         },
@@ -7138,9 +7138,9 @@ module.exports = {
         customfield_10020: "0|i01ln5:",
         customfield_10021: null,
         priority: {
-          self: "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+          self: "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
           iconUrl:
-            "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+            "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
           name: "Medium",
           id: "3",
         },
@@ -7162,32 +7162,32 @@ module.exports = {
           {
             id: "23685",
             self:
-              "https://marketenterprise.atlassian.net/rest/api/3/issueLink/23685",
+              "https://xxxxxxxx.atlassian.net/rest/api/3/issueLink/23685",
             type: {
               id: "10001",
               name: "Cloners",
               inward: "is cloned by",
               outward: "clones",
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/issueLinkType/10001",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/issueLinkType/10001",
             },
             outwardIssue: {
               id: "28427",
               key: "RUSE-843",
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/issue/28427",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/issue/28427",
               fields: {
                 summary: "レオパレス21のLPをアップロードする",
                 status: {
                   self:
-                    "https://marketenterprise.atlassian.net/rest/api/3/status/10376",
+                    "https://xxxxxxxx.atlassian.net/rest/api/3/status/10376",
                   description: "",
-                  iconUrl: "https://marketenterprise.atlassian.net/",
+                  iconUrl: "https://xxxxxxxx.atlassian.net/",
                   name: "完了",
                   id: "10376",
                   statusCategory: {
                     self:
-                      "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/3",
+                      "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/3",
                     id: 3,
                     key: "done",
                     colorName: "green",
@@ -7196,19 +7196,19 @@ module.exports = {
                 },
                 priority: {
                   self:
-                    "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+                    "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
                   iconUrl:
-                    "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+                    "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
                   name: "Medium",
                   id: "3",
                 },
                 issuetype: {
                   self:
-                    "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10150",
+                    "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10150",
                   id: "10150",
                   description: "さまざまな小規模作業。",
                   iconUrl:
-                    "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10318&avatarType=issuetype",
+                    "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10318&avatarType=issuetype",
                   name: "タスク",
                   subtask: false,
                   avatarId: 10318,
@@ -7221,9 +7221,9 @@ module.exports = {
         ],
         assignee: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
           accountId: "557058:17fcc822-605c-48bb-97b3-2057e2250010",
-          emailAddress: "nakama@marketenterprise.co.jp",
+          emailAddress: "nakama@xxxxxxxx.co.jp",
           avatarUrls: {
             "48x48":
               "https://secure.gravatar.com/avatar/162cbe566985300a2e5314ede23d79f1?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTN-6.png",
@@ -7242,14 +7242,14 @@ module.exports = {
         updated: "2021-01-22T14:04:48.085+0900",
         status: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/status/10369",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/status/10369",
           description: "",
-          iconUrl: "https://marketenterprise.atlassian.net/",
+          iconUrl: "https://xxxxxxxx.atlassian.net/",
           name: "To Do",
           id: "10369",
           statusCategory: {
             self:
-              "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/2",
+              "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/2",
             id: 2,
             key: "new",
             colorName: "blue-gray",
@@ -7655,9 +7655,9 @@ module.exports = {
         summary: "大東建託のLPをアップロードする",
         creator: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
           accountId: "557058:17fcc822-605c-48bb-97b3-2057e2250010",
-          emailAddress: "nakama@marketenterprise.co.jp",
+          emailAddress: "nakama@xxxxxxxx.co.jp",
           avatarUrls: {
             "48x48":
               "https://secure.gravatar.com/avatar/162cbe566985300a2e5314ede23d79f1?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTN-6.png",
@@ -7676,9 +7676,9 @@ module.exports = {
         subtasks: [],
         reporter: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
           accountId: "557058:17fcc822-605c-48bb-97b3-2057e2250010",
-          emailAddress: "nakama@marketenterprise.co.jp",
+          emailAddress: "nakama@xxxxxxxx.co.jp",
           avatarUrls: {
             "48x48":
               "https://secure.gravatar.com/avatar/162cbe566985300a2e5314ede23d79f1?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTN-6.png",
@@ -7721,7 +7721,7 @@ module.exports = {
         },
         votes: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issue/RUSE-847/votes",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issue/RUSE-847/votes",
           votes: 0,
           hasVoted: false,
         },
@@ -7731,17 +7731,17 @@ module.exports = {
       expand:
         "operations,versionedRepresentations,editmeta,changelog,renderedFields",
       id: "28420",
-      self: "https://marketenterprise.atlassian.net/rest/api/3/issue/28420",
+      self: "https://xxxxxxxx.atlassian.net/rest/api/3/issue/28420",
       key: "RUSE-836",
       fields: {
         statuscategorychangedate: "2021-01-07T19:07:40.813+0900",
         issuetype: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10149",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10149",
           id: "10149",
           description: "ユーザー目標として表明された機能。",
           iconUrl:
-            "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10315&avatarType=issuetype",
+            "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10315&avatarType=issuetype",
           name: "ストーリー",
           subtask: false,
           avatarId: 10315,
@@ -7751,19 +7751,19 @@ module.exports = {
         parent: {
           id: "26876",
           key: "RUSE-1",
-          self: "https://marketenterprise.atlassian.net/rest/api/3/issue/26876",
+          self: "https://xxxxxxxx.atlassian.net/rest/api/3/issue/26876",
           fields: {
             summary: "おいくら-保守",
             status: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/status/10369",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/status/10369",
               description: "",
-              iconUrl: "https://marketenterprise.atlassian.net/",
+              iconUrl: "https://xxxxxxxx.atlassian.net/",
               name: "To Do",
               id: "10369",
               statusCategory: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/2",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/2",
                 id: 2,
                 key: "new",
                 colorName: "blue-gray",
@@ -7772,20 +7772,20 @@ module.exports = {
             },
             priority: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
               iconUrl:
-                "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+                "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
               name: "Medium",
               id: "3",
             },
             issuetype: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10152",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10152",
               id: "10152",
               description:
                 "エピックでは、一連の関連するバグ、ストーリー、タスクを追跡します。",
               iconUrl:
-                "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10307&avatarType=issuetype",
+                "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10307&avatarType=issuetype",
               name: "エピック",
               subtask: false,
               avatarId: 10307,
@@ -7797,7 +7797,7 @@ module.exports = {
         timespent: null,
         project: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/project/12014",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/project/12014",
           id: "12014",
           key: "RUSE",
           name: "チームブルー",
@@ -7805,13 +7805,13 @@ module.exports = {
           simplified: true,
           avatarUrls: {
             "48x48":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?pid=12014&avatarId=11719",
             "24x24":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=small&s=small&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=small&s=small&pid=12014&avatarId=11719",
             "16x16":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=12014&avatarId=11719",
             "32x32":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=12014&avatarId=11719",
           },
         },
         fixVersions: [],
@@ -7824,7 +7824,7 @@ module.exports = {
         workratio: -1,
         watches: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issue/RUSE-836/watchers",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issue/RUSE-836/watchers",
           watchCount: 1,
           isWatching: false,
         },
@@ -7833,9 +7833,9 @@ module.exports = {
         customfield_10020: "0|i01ln1:",
         customfield_10021: null,
         priority: {
-          self: "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+          self: "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
           iconUrl:
-            "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+            "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
           name: "Medium",
           id: "3",
         },
@@ -7857,33 +7857,33 @@ module.exports = {
           {
             id: "23682",
             self:
-              "https://marketenterprise.atlassian.net/rest/api/3/issueLink/23682",
+              "https://xxxxxxxx.atlassian.net/rest/api/3/issueLink/23682",
             type: {
               id: "10300",
               name: "Gantt End to Start",
               inward: "has to be done after",
               outward: "has to be done before",
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/issueLinkType/10300",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/issueLinkType/10300",
             },
             inwardIssue: {
               id: "28369",
               key: "RUSE-802",
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/issue/28369",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/issue/28369",
               fields: {
                 summary:
                   "査定結果を見たユーザーから店舗へメーラー以外で問い合わせできる（UI以外のみ作成）",
                 status: {
                   self:
-                    "https://marketenterprise.atlassian.net/rest/api/3/status/10421",
+                    "https://xxxxxxxx.atlassian.net/rest/api/3/status/10421",
                   description: "",
-                  iconUrl: "https://marketenterprise.atlassian.net/",
+                  iconUrl: "https://xxxxxxxx.atlassian.net/",
                   name: "RV中",
                   id: "10421",
                   statusCategory: {
                     self:
-                      "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/4",
+                      "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/4",
                     id: 4,
                     key: "indeterminate",
                     colorName: "yellow",
@@ -7892,19 +7892,19 @@ module.exports = {
                 },
                 priority: {
                   self:
-                    "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+                    "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
                   iconUrl:
-                    "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+                    "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
                   name: "Medium",
                   id: "3",
                 },
                 issuetype: {
                   self:
-                    "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10150",
+                    "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10150",
                   id: "10150",
                   description: "さまざまな小規模作業。",
                   iconUrl:
-                    "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10318&avatarType=issuetype",
+                    "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10318&avatarType=issuetype",
                   name: "タスク",
                   subtask: false,
                   avatarId: 10318,
@@ -7917,7 +7917,7 @@ module.exports = {
         ],
         assignee: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/user?accountId=5d92ed2ce85fbc0c2a155ad6",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/user?accountId=5d92ed2ce85fbc0c2a155ad6",
           accountId: "5d92ed2ce85fbc0c2a155ad6",
           avatarUrls: {
             "48x48":
@@ -7937,14 +7937,14 @@ module.exports = {
         updated: "2021-01-22T16:21:28.823+0900",
         status: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/status/10369",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/status/10369",
           description: "",
-          iconUrl: "https://marketenterprise.atlassian.net/",
+          iconUrl: "https://xxxxxxxx.atlassian.net/",
           name: "To Do",
           id: "10369",
           statusCategory: {
             self:
-              "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/2",
+              "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/2",
             id: 2,
             key: "new",
             colorName: "blue-gray",
@@ -8144,7 +8144,7 @@ module.exports = {
           "[802が終わったら！] ユーザから査定店舗へ問い合わせた際にユーザへ自動送信メール（控え）を送信する",
         creator: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/user?accountId=5d92e5f256bb950dd648bad8",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/user?accountId=5d92e5f256bb950dd648bad8",
           accountId: "5d92e5f256bb950dd648bad8",
           avatarUrls: {
             "48x48":
@@ -8166,19 +8166,19 @@ module.exports = {
             id: "28424",
             key: "RUSE-840",
             self:
-              "https://marketenterprise.atlassian.net/rest/api/3/issue/28424",
+              "https://xxxxxxxx.atlassian.net/rest/api/3/issue/28424",
             fields: {
               summary: "メール送信処理の実装",
               status: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/status/10369",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/status/10369",
                 description: "",
-                iconUrl: "https://marketenterprise.atlassian.net/",
+                iconUrl: "https://xxxxxxxx.atlassian.net/",
                 name: "To Do",
                 id: "10369",
                 statusCategory: {
                   self:
-                    "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/2",
+                    "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/2",
                   id: 2,
                   key: "new",
                   colorName: "blue-gray",
@@ -8187,20 +8187,20 @@ module.exports = {
               },
               priority: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
                 iconUrl:
-                  "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+                  "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
                 name: "Medium",
                 id: "3",
               },
               issuetype: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10153",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10153",
                 id: "10153",
                 description:
                   "サブタスクでは、大規模なタスク内の小さな作業を追跡します。",
                 iconUrl:
-                  "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
+                  "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
                 name: "サブタスク",
                 subtask: true,
                 avatarId: 10316,
@@ -8213,19 +8213,19 @@ module.exports = {
             id: "28423",
             key: "RUSE-839",
             self:
-              "https://marketenterprise.atlassian.net/rest/api/3/issue/28423",
+              "https://xxxxxxxx.atlassian.net/rest/api/3/issue/28423",
             fields: {
               summary: "メールテンプレート作成",
               status: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/status/10376",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/status/10376",
                 description: "",
-                iconUrl: "https://marketenterprise.atlassian.net/",
+                iconUrl: "https://xxxxxxxx.atlassian.net/",
                 name: "完了",
                 id: "10376",
                 statusCategory: {
                   self:
-                    "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/3",
+                    "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/3",
                   id: 3,
                   key: "done",
                   colorName: "green",
@@ -8234,20 +8234,20 @@ module.exports = {
               },
               priority: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
                 iconUrl:
-                  "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+                  "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
                 name: "Medium",
                 id: "3",
               },
               issuetype: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10153",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10153",
                 id: "10153",
                 description:
                   "サブタスクでは、大規模なタスク内の小さな作業を追跡します。",
                 iconUrl:
-                  "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
+                  "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
                 name: "サブタスク",
                 subtask: true,
                 avatarId: 10316,
@@ -8259,7 +8259,7 @@ module.exports = {
         ],
         reporter: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/user?accountId=5d92e5f256bb950dd648bad8",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/user?accountId=5d92e5f256bb950dd648bad8",
           accountId: "5d92e5f256bb950dd648bad8",
           avatarUrls: {
             "48x48":
@@ -8303,7 +8303,7 @@ module.exports = {
         },
         votes: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issue/RUSE-836/votes",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issue/RUSE-836/votes",
           votes: 0,
           hasVoted: false,
         },
@@ -8313,17 +8313,17 @@ module.exports = {
       expand:
         "operations,versionedRepresentations,editmeta,changelog,renderedFields",
       id: "28397",
-      self: "https://marketenterprise.atlassian.net/rest/api/3/issue/28397",
+      self: "https://xxxxxxxx.atlassian.net/rest/api/3/issue/28397",
       key: "RUSE-816",
       fields: {
         statuscategorychangedate: "2021-01-07T17:16:35.856+0900",
         issuetype: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10151",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10151",
           id: "10151",
           description: "問題またはエラー。",
           iconUrl:
-            "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10303&avatarType=issuetype",
+            "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10303&avatarType=issuetype",
           name: "バグ",
           subtask: false,
           avatarId: 10303,
@@ -8333,19 +8333,19 @@ module.exports = {
         parent: {
           id: "27297",
           key: "RUSE-172",
-          self: "https://marketenterprise.atlassian.net/rest/api/3/issue/27297",
+          self: "https://xxxxxxxx.atlassian.net/rest/api/3/issue/27297",
           fields: {
             summary: "おいくら-Zプラン",
             status: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/status/10369",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/status/10369",
               description: "",
-              iconUrl: "https://marketenterprise.atlassian.net/",
+              iconUrl: "https://xxxxxxxx.atlassian.net/",
               name: "To Do",
               id: "10369",
               statusCategory: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/2",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/2",
                 id: 2,
                 key: "new",
                 colorName: "blue-gray",
@@ -8354,20 +8354,20 @@ module.exports = {
             },
             priority: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
               iconUrl:
-                "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+                "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
               name: "Medium",
               id: "3",
             },
             issuetype: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10152",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10152",
               id: "10152",
               description:
                 "エピックでは、一連の関連するバグ、ストーリー、タスクを追跡します。",
               iconUrl:
-                "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10307&avatarType=issuetype",
+                "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10307&avatarType=issuetype",
               name: "エピック",
               subtask: false,
               avatarId: 10307,
@@ -8379,7 +8379,7 @@ module.exports = {
         timespent: null,
         project: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/project/12014",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/project/12014",
           id: "12014",
           key: "RUSE",
           name: "チームブルー",
@@ -8387,13 +8387,13 @@ module.exports = {
           simplified: true,
           avatarUrls: {
             "48x48":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?pid=12014&avatarId=11719",
             "24x24":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=small&s=small&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=small&s=small&pid=12014&avatarId=11719",
             "16x16":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=12014&avatarId=11719",
             "32x32":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=12014&avatarId=11719",
           },
         },
         fixVersions: [],
@@ -8407,7 +8407,7 @@ module.exports = {
         lastViewed: "2021-01-22T16:40:40.060+0900",
         watches: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issue/RUSE-816/watchers",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issue/RUSE-816/watchers",
           watchCount: 2,
           isWatching: true,
         },
@@ -8415,9 +8415,9 @@ module.exports = {
         customfield_10020: "0|i01lmr:01",
         customfield_10021: null,
         priority: {
-          self: "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+          self: "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
           iconUrl:
-            "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+            "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
           name: "Medium",
           id: "3",
         },
@@ -8439,7 +8439,7 @@ module.exports = {
         issuelinks: [],
         assignee: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/user?accountId=557058%3Ab460699a-65b7-4bf0-86c0-e08bdaba4d25",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/user?accountId=557058%3Ab460699a-65b7-4bf0-86c0-e08bdaba4d25",
           accountId: "557058:b460699a-65b7-4bf0-86c0-e08bdaba4d25",
           avatarUrls: {
             "48x48":
@@ -8459,14 +8459,14 @@ module.exports = {
         updated: "2021-01-22T12:21:17.936+0900",
         status: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/status/10371",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/status/10371",
           description: "",
-          iconUrl: "https://marketenterprise.atlassian.net/",
+          iconUrl: "https://xxxxxxxx.atlassian.net/",
           name: "テスト中",
           id: "10371",
           statusCategory: {
             self:
-              "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/4",
+              "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/4",
             id: 4,
             key: "indeterminate",
             colorName: "yellow",
@@ -8734,9 +8734,9 @@ module.exports = {
         summary: "[依頼詳細-SP]お気に入りボタンのスタイルが外れている",
         creator: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
           accountId: "557058:17fcc822-605c-48bb-97b3-2057e2250010",
-          emailAddress: "nakama@marketenterprise.co.jp",
+          emailAddress: "nakama@xxxxxxxx.co.jp",
           avatarUrls: {
             "48x48":
               "https://secure.gravatar.com/avatar/162cbe566985300a2e5314ede23d79f1?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTN-6.png",
@@ -8757,20 +8757,20 @@ module.exports = {
             id: "28443",
             key: "RUSE-851",
             self:
-              "https://marketenterprise.atlassian.net/rest/api/3/issue/28443",
+              "https://xxxxxxxx.atlassian.net/rest/api/3/issue/28443",
             fields: {
               summary:
                 "[テスト指摘] iPad mini4 依頼詳細のお気に入りボタンの文字がずれている",
               status: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/status/10369",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/status/10369",
                 description: "",
-                iconUrl: "https://marketenterprise.atlassian.net/",
+                iconUrl: "https://xxxxxxxx.atlassian.net/",
                 name: "To Do",
                 id: "10369",
                 statusCategory: {
                   self:
-                    "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/2",
+                    "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/2",
                   id: 2,
                   key: "new",
                   colorName: "blue-gray",
@@ -8779,20 +8779,20 @@ module.exports = {
               },
               priority: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
                 iconUrl:
-                  "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+                  "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
                 name: "Medium",
                 id: "3",
               },
               issuetype: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10153",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10153",
                 id: "10153",
                 description:
                   "サブタスクでは、大規模なタスク内の小さな作業を追跡します。",
                 iconUrl:
-                  "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
+                  "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
                 name: "サブタスク",
                 subtask: true,
                 avatarId: 10316,
@@ -8804,9 +8804,9 @@ module.exports = {
         ],
         reporter: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
           accountId: "557058:17fcc822-605c-48bb-97b3-2057e2250010",
-          emailAddress: "nakama@marketenterprise.co.jp",
+          emailAddress: "nakama@xxxxxxxx.co.jp",
           avatarUrls: {
             "48x48":
               "https://secure.gravatar.com/avatar/162cbe566985300a2e5314ede23d79f1?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTN-6.png",
@@ -8849,7 +8849,7 @@ module.exports = {
         },
         votes: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issue/RUSE-816/votes",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issue/RUSE-816/votes",
           votes: 0,
           hasVoted: false,
         },
@@ -8859,17 +8859,17 @@ module.exports = {
       expand:
         "operations,versionedRepresentations,editmeta,changelog,renderedFields",
       id: "28369",
-      self: "https://marketenterprise.atlassian.net/rest/api/3/issue/28369",
+      self: "https://xxxxxxxx.atlassian.net/rest/api/3/issue/28369",
       key: "RUSE-802",
       fields: {
         statuscategorychangedate: "2021-01-14T08:16:30.666+0900",
         issuetype: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10150",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10150",
           id: "10150",
           description: "さまざまな小規模作業。",
           iconUrl:
-            "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10318&avatarType=issuetype",
+            "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10318&avatarType=issuetype",
           name: "タスク",
           subtask: false,
           avatarId: 10318,
@@ -8879,19 +8879,19 @@ module.exports = {
         parent: {
           id: "26876",
           key: "RUSE-1",
-          self: "https://marketenterprise.atlassian.net/rest/api/3/issue/26876",
+          self: "https://xxxxxxxx.atlassian.net/rest/api/3/issue/26876",
           fields: {
             summary: "おいくら-保守",
             status: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/status/10369",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/status/10369",
               description: "",
-              iconUrl: "https://marketenterprise.atlassian.net/",
+              iconUrl: "https://xxxxxxxx.atlassian.net/",
               name: "To Do",
               id: "10369",
               statusCategory: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/2",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/2",
                 id: 2,
                 key: "new",
                 colorName: "blue-gray",
@@ -8900,20 +8900,20 @@ module.exports = {
             },
             priority: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
               iconUrl:
-                "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+                "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
               name: "Medium",
               id: "3",
             },
             issuetype: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10152",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10152",
               id: "10152",
               description:
                 "エピックでは、一連の関連するバグ、ストーリー、タスクを追跡します。",
               iconUrl:
-                "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10307&avatarType=issuetype",
+                "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10307&avatarType=issuetype",
               name: "エピック",
               subtask: false,
               avatarId: 10307,
@@ -8925,7 +8925,7 @@ module.exports = {
         timespent: null,
         project: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/project/12014",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/project/12014",
           id: "12014",
           key: "RUSE",
           name: "チームブルー",
@@ -8933,13 +8933,13 @@ module.exports = {
           simplified: true,
           avatarUrls: {
             "48x48":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?pid=12014&avatarId=11719",
             "24x24":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=small&s=small&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=small&s=small&pid=12014&avatarId=11719",
             "16x16":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=12014&avatarId=11719",
             "32x32":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=12014&avatarId=11719",
           },
         },
         fixVersions: [],
@@ -8952,7 +8952,7 @@ module.exports = {
         workratio: -1,
         watches: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issue/RUSE-802/watchers",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issue/RUSE-802/watchers",
           watchCount: 1,
           isWatching: true,
         },
@@ -8961,9 +8961,9 @@ module.exports = {
         customfield_10020: "0|i01lmr:02",
         customfield_10021: null,
         priority: {
-          self: "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+          self: "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
           iconUrl:
-            "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+            "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
           name: "Medium",
           id: "3",
         },
@@ -8986,33 +8986,33 @@ module.exports = {
           {
             id: "23687",
             self:
-              "https://marketenterprise.atlassian.net/rest/api/3/issueLink/23687",
+              "https://xxxxxxxx.atlassian.net/rest/api/3/issueLink/23687",
             type: {
               id: "10000",
               name: "Blocks",
               inward: "is blocked by",
               outward: "blocks",
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/issueLinkType/10000",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/issueLinkType/10000",
             },
             outwardIssue: {
               id: "28469",
               key: "RUSE-872",
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/issue/28469",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/issue/28469",
               fields: {
                 summary:
                   "[お客様マイページ] VNで開発したものに不足している要素や分岐を加えて、一括査定・全国査定の両方に対応する形にする",
                 status: {
                   self:
-                    "https://marketenterprise.atlassian.net/rest/api/3/status/10369",
+                    "https://xxxxxxxx.atlassian.net/rest/api/3/status/10369",
                   description: "",
-                  iconUrl: "https://marketenterprise.atlassian.net/",
+                  iconUrl: "https://xxxxxxxx.atlassian.net/",
                   name: "To Do",
                   id: "10369",
                   statusCategory: {
                     self:
-                      "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/2",
+                      "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/2",
                     id: 2,
                     key: "new",
                     colorName: "blue-gray",
@@ -9021,19 +9021,19 @@ module.exports = {
                 },
                 priority: {
                   self:
-                    "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+                    "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
                   iconUrl:
-                    "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+                    "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
                   name: "Medium",
                   id: "3",
                 },
                 issuetype: {
                   self:
-                    "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10150",
+                    "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10150",
                   id: "10150",
                   description: "さまざまな小規模作業。",
                   iconUrl:
-                    "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10318&avatarType=issuetype",
+                    "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10318&avatarType=issuetype",
                   name: "タスク",
                   subtask: false,
                   avatarId: 10318,
@@ -9046,33 +9046,33 @@ module.exports = {
           {
             id: "23681",
             self:
-              "https://marketenterprise.atlassian.net/rest/api/3/issueLink/23681",
+              "https://xxxxxxxx.atlassian.net/rest/api/3/issueLink/23681",
             type: {
               id: "10300",
               name: "Gantt End to Start",
               inward: "has to be done after",
               outward: "has to be done before",
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/issueLinkType/10300",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/issueLinkType/10300",
             },
             outwardIssue: {
               id: "28419",
               key: "RUSE-835",
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/issue/28419",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/issue/28419",
               fields: {
                 summary:
                   "査定結果に対して２回目の店舗問い合わせをできないようにする（UI以外のみ変更）",
                 status: {
                   self:
-                    "https://marketenterprise.atlassian.net/rest/api/3/status/10369",
+                    "https://xxxxxxxx.atlassian.net/rest/api/3/status/10369",
                   description: "",
-                  iconUrl: "https://marketenterprise.atlassian.net/",
+                  iconUrl: "https://xxxxxxxx.atlassian.net/",
                   name: "To Do",
                   id: "10369",
                   statusCategory: {
                     self:
-                      "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/2",
+                      "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/2",
                     id: 2,
                     key: "new",
                     colorName: "blue-gray",
@@ -9081,19 +9081,19 @@ module.exports = {
                 },
                 priority: {
                   self:
-                    "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+                    "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
                   iconUrl:
-                    "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+                    "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
                   name: "Medium",
                   id: "3",
                 },
                 issuetype: {
                   self:
-                    "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10150",
+                    "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10150",
                   id: "10150",
                   description: "さまざまな小規模作業。",
                   iconUrl:
-                    "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10318&avatarType=issuetype",
+                    "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10318&avatarType=issuetype",
                   name: "タスク",
                   subtask: false,
                   avatarId: 10318,
@@ -9106,33 +9106,33 @@ module.exports = {
           {
             id: "23682",
             self:
-              "https://marketenterprise.atlassian.net/rest/api/3/issueLink/23682",
+              "https://xxxxxxxx.atlassian.net/rest/api/3/issueLink/23682",
             type: {
               id: "10300",
               name: "Gantt End to Start",
               inward: "has to be done after",
               outward: "has to be done before",
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/issueLinkType/10300",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/issueLinkType/10300",
             },
             outwardIssue: {
               id: "28420",
               key: "RUSE-836",
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/issue/28420",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/issue/28420",
               fields: {
                 summary:
                   "[802が終わったら！] ユーザから査定店舗へ問い合わせた際にユーザへ自動送信メール（控え）を送信する",
                 status: {
                   self:
-                    "https://marketenterprise.atlassian.net/rest/api/3/status/10369",
+                    "https://xxxxxxxx.atlassian.net/rest/api/3/status/10369",
                   description: "",
-                  iconUrl: "https://marketenterprise.atlassian.net/",
+                  iconUrl: "https://xxxxxxxx.atlassian.net/",
                   name: "To Do",
                   id: "10369",
                   statusCategory: {
                     self:
-                      "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/2",
+                      "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/2",
                     id: 2,
                     key: "new",
                     colorName: "blue-gray",
@@ -9141,19 +9141,19 @@ module.exports = {
                 },
                 priority: {
                   self:
-                    "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+                    "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
                   iconUrl:
-                    "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+                    "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
                   name: "Medium",
                   id: "3",
                 },
                 issuetype: {
                   self:
-                    "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10149",
+                    "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10149",
                   id: "10149",
                   description: "ユーザー目標として表明された機能。",
                   iconUrl:
-                    "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10315&avatarType=issuetype",
+                    "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10315&avatarType=issuetype",
                   name: "ストーリー",
                   subtask: false,
                   avatarId: 10315,
@@ -9166,7 +9166,7 @@ module.exports = {
         ],
         assignee: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/user?accountId=5dbb9fecb8463d0c4fb6ed2b",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/user?accountId=5dbb9fecb8463d0c4fb6ed2b",
           accountId: "5dbb9fecb8463d0c4fb6ed2b",
           avatarUrls: {
             "48x48":
@@ -9186,14 +9186,14 @@ module.exports = {
         updated: "2021-01-22T12:21:14.693+0900",
         status: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/status/10421",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/status/10421",
           description: "",
-          iconUrl: "https://marketenterprise.atlassian.net/",
+          iconUrl: "https://xxxxxxxx.atlassian.net/",
           name: "RV中",
           id: "10421",
           statusCategory: {
             self:
-              "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/4",
+              "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/4",
             id: 4,
             key: "indeterminate",
             colorName: "yellow",
@@ -9956,9 +9956,9 @@ module.exports = {
           "査定結果を見たユーザーから店舗へメーラー以外で問い合わせできる（UI以外のみ作成）",
         creator: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
           accountId: "557058:17fcc822-605c-48bb-97b3-2057e2250010",
-          emailAddress: "nakama@marketenterprise.co.jp",
+          emailAddress: "nakama@xxxxxxxx.co.jp",
           avatarUrls: {
             "48x48":
               "https://secure.gravatar.com/avatar/162cbe566985300a2e5314ede23d79f1?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTN-6.png",
@@ -9979,19 +9979,19 @@ module.exports = {
             id: "28426",
             key: "RUSE-842",
             self:
-              "https://marketenterprise.atlassian.net/rest/api/3/issue/28426",
+              "https://xxxxxxxx.atlassian.net/rest/api/3/issue/28426",
             fields: {
               summary: "店舗向けメールの送信処理の実装",
               status: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/status/10421",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/status/10421",
                 description: "",
-                iconUrl: "https://marketenterprise.atlassian.net/",
+                iconUrl: "https://xxxxxxxx.atlassian.net/",
                 name: "RV中",
                 id: "10421",
                 statusCategory: {
                   self:
-                    "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/4",
+                    "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/4",
                   id: 4,
                   key: "indeterminate",
                   colorName: "yellow",
@@ -10000,20 +10000,20 @@ module.exports = {
               },
               priority: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
                 iconUrl:
-                  "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+                  "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
                 name: "Medium",
                 id: "3",
               },
               issuetype: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10153",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10153",
                 id: "10153",
                 description:
                   "サブタスクでは、大規模なタスク内の小さな作業を追跡します。",
                 iconUrl:
-                  "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
+                  "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
                 name: "サブタスク",
                 subtask: true,
                 avatarId: 10316,
@@ -10026,19 +10026,19 @@ module.exports = {
             id: "28425",
             key: "RUSE-841",
             self:
-              "https://marketenterprise.atlassian.net/rest/api/3/issue/28425",
+              "https://xxxxxxxx.atlassian.net/rest/api/3/issue/28425",
             fields: {
               summary: "DB：送信データ、フラグを保存する",
               status: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/status/10421",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/status/10421",
                 description: "",
-                iconUrl: "https://marketenterprise.atlassian.net/",
+                iconUrl: "https://xxxxxxxx.atlassian.net/",
                 name: "RV中",
                 id: "10421",
                 statusCategory: {
                   self:
-                    "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/4",
+                    "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/4",
                   id: 4,
                   key: "indeterminate",
                   colorName: "yellow",
@@ -10047,20 +10047,20 @@ module.exports = {
               },
               priority: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
                 iconUrl:
-                  "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+                  "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
                 name: "Medium",
                 id: "3",
               },
               issuetype: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10153",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10153",
                 id: "10153",
                 description:
                   "サブタスクでは、大規模なタスク内の小さな作業を追跡します。",
                 iconUrl:
-                  "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
+                  "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
                 name: "サブタスク",
                 subtask: true,
                 avatarId: 10316,
@@ -10073,19 +10073,19 @@ module.exports = {
             id: "28422",
             key: "RUSE-838",
             self:
-              "https://marketenterprise.atlassian.net/rest/api/3/issue/28422",
+              "https://xxxxxxxx.atlassian.net/rest/api/3/issue/28422",
             fields: {
               summary: "メールフォーマットを決める",
               status: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/status/10369",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/status/10369",
                 description: "",
-                iconUrl: "https://marketenterprise.atlassian.net/",
+                iconUrl: "https://xxxxxxxx.atlassian.net/",
                 name: "To Do",
                 id: "10369",
                 statusCategory: {
                   self:
-                    "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/2",
+                    "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/2",
                   id: 2,
                   key: "new",
                   colorName: "blue-gray",
@@ -10094,20 +10094,20 @@ module.exports = {
               },
               priority: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
                 iconUrl:
-                  "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+                  "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
                 name: "Medium",
                 id: "3",
               },
               issuetype: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10153",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10153",
                 id: "10153",
                 description:
                   "サブタスクでは、大規模なタスク内の小さな作業を追跡します。",
                 iconUrl:
-                  "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
+                  "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
                 name: "サブタスク",
                 subtask: true,
                 avatarId: 10316,
@@ -10119,9 +10119,9 @@ module.exports = {
         ],
         reporter: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
           accountId: "557058:17fcc822-605c-48bb-97b3-2057e2250010",
-          emailAddress: "nakama@marketenterprise.co.jp",
+          emailAddress: "nakama@xxxxxxxx.co.jp",
           avatarUrls: {
             "48x48":
               "https://secure.gravatar.com/avatar/162cbe566985300a2e5314ede23d79f1?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTN-6.png",
@@ -10164,7 +10164,7 @@ module.exports = {
         },
         votes: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issue/RUSE-802/votes",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issue/RUSE-802/votes",
           votes: 0,
           hasVoted: false,
         },
@@ -10174,17 +10174,17 @@ module.exports = {
       expand:
         "operations,versionedRepresentations,editmeta,changelog,renderedFields",
       id: "28151",
-      self: "https://marketenterprise.atlassian.net/rest/api/3/issue/28151",
+      self: "https://xxxxxxxx.atlassian.net/rest/api/3/issue/28151",
       key: "RUSE-662",
       fields: {
         statuscategorychangedate: "2021-01-13T08:55:55.260+0900",
         issuetype: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10149",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10149",
           id: "10149",
           description: "ユーザー目標として表明された機能。",
           iconUrl:
-            "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10315&avatarType=issuetype",
+            "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10315&avatarType=issuetype",
           name: "ストーリー",
           subtask: false,
           avatarId: 10315,
@@ -10194,19 +10194,19 @@ module.exports = {
         parent: {
           id: "27297",
           key: "RUSE-172",
-          self: "https://marketenterprise.atlassian.net/rest/api/3/issue/27297",
+          self: "https://xxxxxxxx.atlassian.net/rest/api/3/issue/27297",
           fields: {
             summary: "おいくら-Zプラン",
             status: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/status/10369",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/status/10369",
               description: "",
-              iconUrl: "https://marketenterprise.atlassian.net/",
+              iconUrl: "https://xxxxxxxx.atlassian.net/",
               name: "To Do",
               id: "10369",
               statusCategory: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/2",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/2",
                 id: 2,
                 key: "new",
                 colorName: "blue-gray",
@@ -10215,20 +10215,20 @@ module.exports = {
             },
             priority: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
               iconUrl:
-                "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+                "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
               name: "Medium",
               id: "3",
             },
             issuetype: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10152",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10152",
               id: "10152",
               description:
                 "エピックでは、一連の関連するバグ、ストーリー、タスクを追跡します。",
               iconUrl:
-                "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10307&avatarType=issuetype",
+                "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10307&avatarType=issuetype",
               name: "エピック",
               subtask: false,
               avatarId: 10307,
@@ -10240,7 +10240,7 @@ module.exports = {
         timespent: null,
         project: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/project/12014",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/project/12014",
           id: "12014",
           key: "RUSE",
           name: "チームブルー",
@@ -10248,13 +10248,13 @@ module.exports = {
           simplified: true,
           avatarUrls: {
             "48x48":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?pid=12014&avatarId=11719",
             "24x24":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=small&s=small&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=small&s=small&pid=12014&avatarId=11719",
             "16x16":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=12014&avatarId=11719",
             "32x32":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=12014&avatarId=11719",
           },
         },
         fixVersions: [],
@@ -10268,7 +10268,7 @@ module.exports = {
         lastViewed: "2021-01-21T14:48:23.965+0900",
         watches: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issue/RUSE-662/watchers",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issue/RUSE-662/watchers",
           watchCount: 1,
           isWatching: false,
         },
@@ -10276,9 +10276,9 @@ module.exports = {
         customfield_10020: "0|i01m3b:",
         customfield_10021: null,
         priority: {
-          self: "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+          self: "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
           iconUrl:
-            "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+            "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
           name: "Medium",
           id: "3",
         },
@@ -10300,7 +10300,7 @@ module.exports = {
         issuelinks: [],
         assignee: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/user?accountId=5d92ed2ce85fbc0c2a155ad6",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/user?accountId=5d92ed2ce85fbc0c2a155ad6",
           accountId: "5d92ed2ce85fbc0c2a155ad6",
           avatarUrls: {
             "48x48":
@@ -10320,14 +10320,14 @@ module.exports = {
         updated: "2021-01-22T16:21:05.347+0900",
         status: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/status/10421",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/status/10421",
           description: "",
-          iconUrl: "https://marketenterprise.atlassian.net/",
+          iconUrl: "https://xxxxxxxx.atlassian.net/",
           name: "RV中",
           id: "10421",
           statusCategory: {
             self:
-              "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/4",
+              "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/4",
             id: 4,
             key: "indeterminate",
             colorName: "yellow",
@@ -10619,7 +10619,7 @@ module.exports = {
           "[依頼詳細] バリデーションエラー時にエラー箇所をハイライトしてエラー内容を表示する",
         creator: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/user?accountId=557058%3Ab460699a-65b7-4bf0-86c0-e08bdaba4d25",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/user?accountId=557058%3Ab460699a-65b7-4bf0-86c0-e08bdaba4d25",
           accountId: "557058:b460699a-65b7-4bf0-86c0-e08bdaba4d25",
           avatarUrls: {
             "48x48":
@@ -10639,7 +10639,7 @@ module.exports = {
         subtasks: [],
         reporter: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/user?accountId=557058%3Ab460699a-65b7-4bf0-86c0-e08bdaba4d25",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/user?accountId=557058%3Ab460699a-65b7-4bf0-86c0-e08bdaba4d25",
           accountId: "557058:b460699a-65b7-4bf0-86c0-e08bdaba4d25",
           avatarUrls: {
             "48x48":
@@ -10683,7 +10683,7 @@ module.exports = {
         },
         votes: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issue/RUSE-662/votes",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issue/RUSE-662/votes",
           votes: 0,
           hasVoted: false,
         },
@@ -10693,17 +10693,17 @@ module.exports = {
       expand:
         "operations,versionedRepresentations,editmeta,changelog,renderedFields",
       id: "27913",
-      self: "https://marketenterprise.atlassian.net/rest/api/3/issue/27913",
+      self: "https://xxxxxxxx.atlassian.net/rest/api/3/issue/27913",
       key: "RUSE-498",
       fields: {
         statuscategorychangedate: "2021-01-21T14:13:07.664+0900",
         issuetype: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10149",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10149",
           id: "10149",
           description: "ユーザー目標として表明された機能。",
           iconUrl:
-            "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10315&avatarType=issuetype",
+            "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10315&avatarType=issuetype",
           name: "ストーリー",
           subtask: false,
           avatarId: 10315,
@@ -10713,19 +10713,19 @@ module.exports = {
         parent: {
           id: "26876",
           key: "RUSE-1",
-          self: "https://marketenterprise.atlassian.net/rest/api/3/issue/26876",
+          self: "https://xxxxxxxx.atlassian.net/rest/api/3/issue/26876",
           fields: {
             summary: "おいくら-保守",
             status: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/status/10369",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/status/10369",
               description: "",
-              iconUrl: "https://marketenterprise.atlassian.net/",
+              iconUrl: "https://xxxxxxxx.atlassian.net/",
               name: "To Do",
               id: "10369",
               statusCategory: {
                 self:
-                  "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/2",
+                  "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/2",
                 id: 2,
                 key: "new",
                 colorName: "blue-gray",
@@ -10734,20 +10734,20 @@ module.exports = {
             },
             priority: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
               iconUrl:
-                "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+                "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
               name: "Medium",
               id: "3",
             },
             issuetype: {
               self:
-                "https://marketenterprise.atlassian.net/rest/api/3/issuetype/10152",
+                "https://xxxxxxxx.atlassian.net/rest/api/3/issuetype/10152",
               id: "10152",
               description:
                 "エピックでは、一連の関連するバグ、ストーリー、タスクを追跡します。",
               iconUrl:
-                "https://marketenterprise.atlassian.net/secure/viewavatar?size=medium&avatarId=10307&avatarType=issuetype",
+                "https://xxxxxxxx.atlassian.net/secure/viewavatar?size=medium&avatarId=10307&avatarType=issuetype",
               name: "エピック",
               subtask: false,
               avatarId: 10307,
@@ -10759,7 +10759,7 @@ module.exports = {
         timespent: null,
         project: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/project/12014",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/project/12014",
           id: "12014",
           key: "RUSE",
           name: "チームブルー",
@@ -10767,13 +10767,13 @@ module.exports = {
           simplified: true,
           avatarUrls: {
             "48x48":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?pid=12014&avatarId=11719",
             "24x24":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=small&s=small&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=small&s=small&pid=12014&avatarId=11719",
             "16x16":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=12014&avatarId=11719",
             "32x32":
-              "https://marketenterprise.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=12014&avatarId=11719",
+              "https://xxxxxxxx.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=12014&avatarId=11719",
           },
         },
         fixVersions: [],
@@ -10786,7 +10786,7 @@ module.exports = {
         workratio: -1,
         watches: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issue/RUSE-498/watchers",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issue/RUSE-498/watchers",
           watchCount: 1,
           isWatching: true,
         },
@@ -10795,9 +10795,9 @@ module.exports = {
         customfield_10020: "0|i01lmr:09",
         customfield_10021: null,
         priority: {
-          self: "https://marketenterprise.atlassian.net/rest/api/3/priority/3",
+          self: "https://xxxxxxxx.atlassian.net/rest/api/3/priority/3",
           iconUrl:
-            "https://marketenterprise.atlassian.net/images/icons/priorities/medium.svg",
+            "https://xxxxxxxx.atlassian.net/images/icons/priorities/medium.svg",
           name: "Medium",
           id: "3",
         },
@@ -10819,7 +10819,7 @@ module.exports = {
         issuelinks: [],
         assignee: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/user?accountId=5dbb9fecb8463d0c4fb6ed2b",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/user?accountId=5dbb9fecb8463d0c4fb6ed2b",
           accountId: "5dbb9fecb8463d0c4fb6ed2b",
           avatarUrls: {
             "48x48":
@@ -10839,14 +10839,14 @@ module.exports = {
         updated: "2021-01-21T15:45:24.845+0900",
         status: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/status/10421",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/status/10421",
           description: "",
-          iconUrl: "https://marketenterprise.atlassian.net/",
+          iconUrl: "https://xxxxxxxx.atlassian.net/",
           name: "RV中",
           id: "10421",
           statusCategory: {
             self:
-              "https://marketenterprise.atlassian.net/rest/api/3/statuscategory/4",
+              "https://xxxxxxxx.atlassian.net/rest/api/3/statuscategory/4",
             id: 4,
             key: "indeterminate",
             colorName: "yellow",
@@ -11080,9 +11080,9 @@ module.exports = {
         summary: "削除した場合にメールが飛ばないようにする",
         creator: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
           accountId: "557058:17fcc822-605c-48bb-97b3-2057e2250010",
-          emailAddress: "nakama@marketenterprise.co.jp",
+          emailAddress: "nakama@xxxxxxxx.co.jp",
           avatarUrls: {
             "48x48":
               "https://secure.gravatar.com/avatar/162cbe566985300a2e5314ede23d79f1?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTN-6.png",
@@ -11101,9 +11101,9 @@ module.exports = {
         subtasks: [],
         reporter: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/user?accountId=557058%3A17fcc822-605c-48bb-97b3-2057e2250010",
           accountId: "557058:17fcc822-605c-48bb-97b3-2057e2250010",
-          emailAddress: "nakama@marketenterprise.co.jp",
+          emailAddress: "nakama@xxxxxxxx.co.jp",
           avatarUrls: {
             "48x48":
               "https://secure.gravatar.com/avatar/162cbe566985300a2e5314ede23d79f1?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FTN-6.png",
@@ -11146,7 +11146,7 @@ module.exports = {
         },
         votes: {
           self:
-            "https://marketenterprise.atlassian.net/rest/api/3/issue/RUSE-498/votes",
+            "https://xxxxxxxx.atlassian.net/rest/api/3/issue/RUSE-498/votes",
           votes: 0,
           hasVoted: false,
         },

@@ -2,7 +2,7 @@ const fetch = require("node-fetch");
 require("dotenv").config();
 
 const jiraAPI = (path) => {
-  const APIURL = "https://marketenterprise.atlassian.net/rest/api/3/";
+  const APIURL = "https://xxxxxxxxxx.atlassian.net/rest/api/3/";
 
   const mail = process.env.EMAIL;
   const pass = process.env.APIKEY;
